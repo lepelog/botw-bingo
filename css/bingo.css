@@ -1,0 +1,39 @@
+#bingo img {
+    max-width:  95px;
+    max-height: 70px;
+    display: block;
+    margin: auto;
+}
+
+#sortButtons { overflow:visible; }
+
+.sortButton {
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: black 1px 1px 1px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 2px;
+    text-decoration: none;
+    padding: 4px 18px;
+    text-align: center;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-left: 2px solid #2339A4;
+    border-right: 2px solid #1A2A88;
+    border-top: 2px solid #244CA6;
+    border-bottom: 2px solid #192686;
+    background-color: #1E3294;
+    background: -moz-linear-gradient(top, #2045C0 0%, #1E3294 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2045c0', endColorstr='#1e3294',GradientType=0 );
+}
+
+.note {
+    color: gray;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 12px;
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

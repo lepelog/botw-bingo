@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Bingo Popout</title>
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 19px;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        table {
+            height: 100%;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            height: 20px;
+            background: #1448B3;
+        }
+
+        th,
+        td {
+            box-shadow: inset 0px 0px 50px rgba(0, 0, 0, .6);
+            -moz-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, .6);
+            -webkit-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, .6);
+        }
+
+        td {
+            height: 19%;
+            padding: 10px;
+            border-top: 2px #666 solid;
+            vertical-align: middle;
+            -moz-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, .6);
+            -webkit-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, .6);
+            box-shadow: inset 0px 0px 50px rgba(0, 0, 0, .6);
+        }
+
+        td:hover {
+            background: #001122;
+            cursor: pointer;
+        }
+
+
+        td img {
+            float: left;
+            max-width: 100%;
+            max-height: 38%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+
+        .greensquare {
+            background: #005511;
+        }
+
+        .greensquare:hover {
+            background: #007722;
+        }
+
+        .redsquare {
+            background: #550011;
+        }
+
+        .redsquare:hover {
+            background: #770022;
+        }
+    </style>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+    <script type="text/javascript">
+        $(function () {
+            var data = document.location.hash.substring(1).split('=');
+            var line = data[0];
+            var items = data[1].split(';;;');
+            $('table th').html(line);
+            for (a in items)
+                $('table').append('<tr><td>' + decodeURIComponent(items[a]) + '</td></tr>');
+            $("td").toggle(
+                function () { $(this).addClass("greensquare"); },
+                function () { $(this).addClass("redsquare").removeClass("greensquare"); },
+                function () { $(this).removeClass("redsquare"); }
+            );
+        });
+    </script>
+
+</body>
+
+</html>
