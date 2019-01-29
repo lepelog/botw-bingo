@@ -225,6 +225,11 @@ var bingo = function(bingoList, size) {
 	  //$('#slot'+i).append("<br/>" + bingoBoard[i].synergy);
 	}
 
+	// populate the bingosync-goals
+	// useful to use a test board for bingosync
+	var bingosync_goals = JSON.stringify(bingoBoard.filter(field => field != null).map(field => ({"name":field.name})));
+	$('#bingosync-goals').text(bingosync_goals);
+
 	return true;
 }; // setup
 
