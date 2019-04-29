@@ -1,35 +1,16 @@
-var bingo = function(bingoList, size) {
+function getBingoBoard(bingoList, size, options = {seed:"", mode:"normal", lang:"name"}) {
 
-	function gup( name ) {
-		name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
-		var regexS = "[\\?&]"+name+"=([^&#]*)";
-		var regex = new RegExp( regexS );
-		var results = regex.exec( window.location.href );
-		if(results == null)
-			 return "";
-		return results[1];
+	var LANG = options.lang;
+	var SEED = options.seed;
+	var MODE = options.mode;
+
+	function mirror(i) {
+		if      (i == 0) { i = 4; }
+		else if (i == 1) { i = 3; }
+		else if (i == 3) { i = 1; }
+		else if (i == 4) { i = 0; }
+		return i;
 	}
-
-	var LANG = gup( 'lang' );
-	if (LANG == '') LANG = 'name';
-	var SEED = gup( 'seed' );
-	var MODE = gup( 'mode' );
-
-	if(SEED == "") return reseedPage(MODE);
-
-	var cardtype = "string";
-
-	if (MODE == "short") { cardtype = "Short"; }
-	else if (MODE == "long") { cardtype = "Long"; }
-	else { cardtype = "Normal";	}
-
-	if (typeof size == 'undefined') size = 5;
-
-	Math.seedrandom(SEED); //sets up the RNG
-	var MAX_SEED = 999999; //1 million cards
-	var results = $("#results");
-	results.append ("<p>BotW Bingo <strong>v1</strong>&emsp;Seed: <strong>" +
-	SEED + "</strong>&emsp;Card type: <strong>" + cardtype + "</strong></p>");
 
 	var noTypeCount = 0;
 
@@ -65,50 +46,6 @@ var bingo = function(bingoList, size) {
 		lineCheckList[23] = [2,7,12,17,20,21,23,24];
 		lineCheckList[24] = [20,21,22,24,3,8,13,18];
 		lineCheckList[25] = [0,6,12,18,20,21,22,23,19,14,9,4];
-	}
-
-	$('.popout').click(function() {
-		var mode = null;
-		var line = $(this).attr('id');
-		var name = $(this).html();
-		var items = [];
-		var cells = $('#bingo .'+ line);
-		for (var i = 0; i < 5; i++) {
-		  items.push( encodeURIComponent($(cells[i]).html()) );
-		}
-		if (mode == 'simple-stream') {
-		  window.open('bingo-popout-basic.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
-		else {
-		  window.open('bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
-	});
-
-	$("#bingo tr td:not(.popout), #selected td").toggle(
-		function () { $(this).addClass("greensquare"); },
-		function () { $(this).addClass("redsquare").removeClass("greensquare"); },
-		function () { $(this).removeClass("redsquare"); }
-	);
-
-	$("#row1").hover(function() { $(".row1").addClass("hover"); }, function() {	$(".row1").removeClass("hover"); });
-	$("#row2").hover(function() { $(".row2").addClass("hover"); }, function() {	$(".row2").removeClass("hover"); });
-	$("#row3").hover(function() { $(".row3").addClass("hover"); }, function() {	$(".row3").removeClass("hover"); });
-	$("#row4").hover(function() { $(".row4").addClass("hover"); }, function() {	$(".row4").removeClass("hover"); });
-	$("#row5").hover(function() { $(".row5").addClass("hover"); }, function() {	$(".row5").removeClass("hover"); });
-
-	$("#col1").hover(function() { $(".col1").addClass("hover"); }, function() {	$(".col1").removeClass("hover"); });
-	$("#col2").hover(function() { $(".col2").addClass("hover"); }, function() {	$(".col2").removeClass("hover"); });
-	$("#col3").hover(function() { $(".col3").addClass("hover"); }, function() {	$(".col3").removeClass("hover"); });
-	$("#col4").hover(function() { $(".col4").addClass("hover"); }, function() {	$(".col4").removeClass("hover"); });
-	$("#col5").hover(function() { $(".col5").addClass("hover"); }, function() {	$(".col5").removeClass("hover"); });
-
-	$("#tlbr").hover(function() { $(".tlbr").addClass("hover"); }, function() {	$(".tlbr").removeClass("hover"); });
-	$("#bltr").hover(function() { $(".bltr").addClass("hover"); }, function() {	$(".bltr").removeClass("hover"); });
-
-	function mirror(i) {
-		if      (i == 0) { i = 4; }
-		else if (i == 1) { i = 3; }
-		else if (i == 3) { i = 1; }
-		else if (i == 4) { i = 0; }
-		return i;
 	}
 
 	function difficulty(i) {
@@ -200,6 +137,8 @@ var bingo = function(bingoList, size) {
 	//populate the bingo board in the array
 	for (i=1; i<=25; i++) {
 		var getDifficulty = bingoBoard[i].difficulty - 1; // difficulty of current square
+		// check if difficulty was there before, causing duplication issues (maybe)
+		var prevIndex = bingoBoard.slice(1,i).findIndex(b=>b.difficulty==(getDifficulty+1))+1;
 		var RNG = Math.floor(bingoList[getDifficulty].length * Math.random());
 		if (RNG == bingoList[getDifficulty].length) { RNG--; } //fix a miracle
 		var j = 0, synergy = 0, currentObj = null, minSynObj = null;
@@ -207,36 +146,160 @@ var bingo = function(bingoList, size) {
 		do {
 			currentObj = bingoList[getDifficulty][(j+RNG)%bingoList[getDifficulty].length];
 			synergy = checkLine(i, currentObj.types);
-			if (minSynObj == null || synergy < minSynObj.synergy) {
+			if ((minSynObj == null || synergy < minSynObj.synergy)
+				// check for duplicate
+					&& (prevIndex<1 || bingoBoard[prevIndex].name != (currentObj[LANG] || currentObj.name))) {
 			  minSynObj = { synergy: synergy, value: currentObj };
 			}
 			j++;
-		} while ((synergy != 0) && (j<bingoList[getDifficulty].length));
+		} while (minSynObj == null || (synergy != 0) && (j<bingoList[getDifficulty].length));
 
 		bingoBoard[i].types = minSynObj.value.types;
 		bingoBoard[i].name = minSynObj.value[LANG] || minSynObj.value.name;
 		bingoBoard[i].synergy = minSynObj.synergy;
 	}
 
+	return bingoBoard;
+}
+
+function gup( name ) {
+	name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+	var regexS = "[\\?&]"+name+"=([^&#]*)";
+	var regex = new RegExp( regexS );
+	var results = regex.exec( window.location.href );
+	if(results == null)
+			return "";
+	return results[1];
+}
+
+var bingo = function() {
+	var size = 5;
+	var board = gup('board') || "normal";
+	var LANG = gup('lang') || 'name';
+	var SEED = gup("seed");
+	var MODE = gup("mode");
+	var EXPLORATION = gup("exploration");
+
+	$.getJSON("tables/"+board+".json", bingoList => {
+
+	if (EXPLORATION) {
+		$('#exploration-check').prop('checked',true);
+	}
+
+	if(SEED == "") return reseedPage(MODE, board, LANG);
+
+	var cardtype = "string";
+
+	if (MODE == "short") { cardtype = "Short"; }
+	else if (MODE == "long") { cardtype = "Long"; }
+	else { cardtype = "Normal";	}
+
+	Math.seedrandom(SEED); //sets up the RNG
+	var MAX_SEED = 999999; //1 million cards
+
+	var qSeed = "?seed=" + SEED;
+	var qMode = (MODE == "short" || MODE == "long") ? "&mode=" + MODE : "";
+	var qEx = EXPLORATION ? '&exploration=1':'';
+	var qBoard = board ? "&board=" + board:"";
+	var results = $("#results");
+	results.append ('<a href="'+qSeed+qMode+qEx+qBoard+'"><img src="img/en.png" alt="English"></a><a href="'+qSeed+qMode+qEx+qBoard+'&lang=jp"><img src="img/jp.png" alt="Japanese"></a><p>BotW Bingo <strong>v1</strong>&emsp;Seed: <strong>' +
+		SEED + "</strong>&emsp;Card type: <strong>" + cardtype + "</strong>&emsp;Goal list: <strong>" + board + "</strong></p>")
+
+	$('.popout').click(function() {
+		var mode = null;
+		var line = $(this).attr('id');
+		var name = $(this).html();
+		var items = [];
+		var cells = $('#bingo .'+ line);
+		for (var i = 0; i < 5; i++) {
+		  items.push( encodeURIComponent($(cells[i]).html()) );
+		}
+		if (mode == 'simple-stream') {
+		  window.open('bingo-popout-basic.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
+		else {
+		  window.open('bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
+	});
+
+	$("#selected td").toggle(
+		function () { $(this).addClass("greensquare"); },
+		function () { $(this).addClass("redsquare").removeClass("greensquare"); },
+		function () { $(this).removeClass("redsquare"); }
+	);
+
+	$("#bingo tr").on('click', 'td:not(.popout):not(.hidden)',
+	  function () {
+			if ($(this).hasClass('greensquare')) {
+				$(this).addClass('redsquare').removeClass('greensquare');
+			} else if ($(this).hasClass('redsquare')) {
+				$(this).removeClass('redsquare')
+			} else {
+				$(this).addClass('greensquare');
+				var slot = parseInt($(this).attr('id').slice(4));
+				// maybe unhide more goals
+				// dividable by 5? nothing to the right
+				if (slot % 5 != 0) {
+					$('#slot'+(slot+1)).removeClass('hidden');
+				}
+				// nothing to the left
+				if (slot % 5 != 1) {
+					$('#slot'+(slot-1)).removeClass('hidden');
+				}
+				// top down doesn't matter
+				$('#slot'+(slot+5)).removeClass('hidden');
+				$('#slot'+(slot-5)).removeClass('hidden');
+			}
+		}
+	);
+
+	$("#row1").hover(function() { $(".row1").addClass("hover"); }, function() {	$(".row1").removeClass("hover"); });
+	$("#row2").hover(function() { $(".row2").addClass("hover"); }, function() {	$(".row2").removeClass("hover"); });
+	$("#row3").hover(function() { $(".row3").addClass("hover"); }, function() {	$(".row3").removeClass("hover"); });
+	$("#row4").hover(function() { $(".row4").addClass("hover"); }, function() {	$(".row4").removeClass("hover"); });
+	$("#row5").hover(function() { $(".row5").addClass("hover"); }, function() {	$(".row5").removeClass("hover"); });
+
+	$("#col1").hover(function() { $(".col1").addClass("hover"); }, function() {	$(".col1").removeClass("hover"); });
+	$("#col2").hover(function() { $(".col2").addClass("hover"); }, function() {	$(".col2").removeClass("hover"); });
+	$("#col3").hover(function() { $(".col3").addClass("hover"); }, function() {	$(".col3").removeClass("hover"); });
+	$("#col4").hover(function() { $(".col4").addClass("hover"); }, function() {	$(".col4").removeClass("hover"); });
+	$("#col5").hover(function() { $(".col5").addClass("hover"); }, function() {	$(".col5").removeClass("hover"); });
+
+	$("#tlbr").hover(function() { $(".tlbr").addClass("hover"); }, function() {	$(".tlbr").removeClass("hover"); });
+	$("#bltr").hover(function() { $(".bltr").addClass("hover"); }, function() {	$(".bltr").removeClass("hover"); });
+
+	var bingoBoard = getBingoBoard(bingoList, size, {seed: SEED, mode: MODE, lang: LANG});
+
 	//populate the actual table on the page
 	for (i=1; i<=25; i++) {
-	  $('#slot'+i).append(bingoBoard[i].name);
+		$('#slot'+i).append(bingoBoard[i].name);
+		if (EXPLORATION && i != 7 && i != 19) {
+			$('#slot'+i).addClass('hidden');
+		}
 	  //$('#slot'+i).append("<br/>" + bingoBoard[i].types.toString());
 	  //$('#slot'+i).append("<br/>" + bingoBoard[i].synergy);
 	}
 
-	// populate the bingosync-goals
-	// useful to use a test board for bingosync
-	var bingosync_goals = JSON.stringify(bingoBoard.filter(field => field != null).map(field => ({"name":field.name})));
-	$('#bingosync-goals').text(bingosync_goals);
+	if (EXPLORATION) {
+		$('#bingosync-goals').text("goals are hidden for Exploration bingo");
+	} else {
+		// populate the bingosync-goals
+		// useful to use a test board for bingosync
+		var bingosync_goals = JSON.stringify(bingoBoard.filter(field => field != null).map(field => ({"name":field.name})));
+		$('#bingosync-goals').text(bingosync_goals);
+	}
 
-	return true;
+	return bingoBoard;
+	});
 }; // setup
 
 function reseedPage(mode) {
 	var qSeed = "?seed=" + Math.ceil(999999 * Math.random());
 	var qMode = (mode == "short" || mode == "long") ? "&mode=" + mode : "";
-	window.location = qSeed + qMode;
+	var qEx = $('#exploration-check').is(':checked') ? '&exploration=1':'';
+	var board = gup('board') || "normal";
+	var LANG = gup('lang') || 'name';
+	var qBoard = board ? "&board=" + board:"";
+	var qLang = LANG ? "&lang=" + LANG:"";
+	window.location = qSeed + qMode + qEx + qBoard + qLang;
 	return false;
 }
 

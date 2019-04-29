@@ -1,0 +1,538 @@
+[
+    [
+        {
+            "name": "10 Koroks",
+            "types": [
+                "total"
+            ]
+        },
+        {
+            "name": "5 Plateau Koroks",
+            "types": [
+                "Plateau"
+            ]
+        },
+        {
+            "name": "5 Koroks under rocks",
+            "types": [
+                "Rocks"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Plateau Koroks",
+            "types": [
+                "Plateau"
+            ]
+        },
+        {
+            "name": "10 Central Koroks",
+            "types": [
+                "Central"
+            ]
+        },
+        {
+            "name": "5 Koroks from sparkles",
+            "types": [
+                "Sparkles"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Dueling Peaks Koroks",
+            "types": [
+                "Dueling Peaks"
+            ]
+        },
+        {
+            "name": "10 Lake Koroks",
+            "types": [
+                "Lake"
+            ]
+        },
+        {
+            "name": "Return Hetsu's Maracas",
+            "types": [
+                "Quest"
+            ]
+        },
+        {
+            "name": "5 Koroks from diving",
+            "types": [
+                "Diving"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Ridgeland Koroks",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "10 Lanayru Koroks",
+            "types": [
+                "Lanayru"
+            ]
+        },
+        {
+            "name": "5 Koroks from shooting balloons",
+            "types": [
+                "Balloons"
+            ]
+        },
+        {
+            "name": "20 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Wasteland Koroks",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "10 Hateno Koroks",
+            "types": [
+                "Hateno"
+            ]
+        },
+        {
+            "name": "5 Koroks from acorns",
+            "types": [
+                "Acorns"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Faron Koroks",
+            "types": [
+                "Faron"
+            ]
+        },
+        {
+            "name": "10 Eldin Koroks",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "5 Koroks from pinwheel acorns",
+            "types": [
+                "Pinwheel"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Woodland Koroks",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "10 Tabantha Koroks",
+            "types": [
+                "Tabantha"
+            ]
+        },
+        {
+            "name": "5 Koroks from rock formations",
+            "types": [
+                "Formation"
+            ]
+        },
+        {
+            "name": "30 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Akkala Koroks",
+            "types": [
+                "Akkala"
+            ]
+        },
+        {
+            "name": "10 Hebra Koroks",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "Complete 'Fateful Stars' Shrine",
+            "types": [
+                "Quest"
+            ]
+        },
+        {
+            "name": "5 Koroks from flower trails",
+            "types": [
+                "Trail"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "5 Koroks from meling ice",
+            "types": [
+                "Ice"
+            ]
+        },
+        {
+            "name": "15 Plateau Koroks",
+            "types": [
+                "Plateau"
+            ]
+        },
+        {
+            "name": "20 Central Koroks",
+            "types": [
+                "Central"
+            ]
+        },
+        {
+            "name": "5 Koroks from cube puzzles",
+            "types": [
+                "Cube"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Dueling Peaks Koroks",
+            "types": [
+                "Dueling Peaks"
+            ]
+        },
+        {
+            "name": "20 Lake Koroks",
+            "types": [
+                "Lake"
+            ]
+        },
+        {
+            "name": "5 Koroks from offerings",
+            "types": [
+                "offering"
+            ]
+        },
+        {
+            "name": "40 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Ridgeland Koroks",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "20 Lanayru Koroks",
+            "types": [
+                "Lanayru"
+            ]
+        },
+        {
+            "name": "Complete 'Test of Wood'",
+            "types": [
+                "Quest"
+            ]
+        },
+        {
+            "name": "5 Koroks from matching trees",
+            "types": [
+                "tree"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Wasteland Koroks",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "20 Hateno Koroks",
+            "types": [
+                "Hateno"
+            ]
+        },
+        {
+            "name": "10 Koroks from sparkles",
+            "types": [
+                "Sparkles"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Faron Koroks",
+            "types": [
+                "Faron"
+            ]
+        },
+        {
+            "name": "20 Eldin Koroks",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "10 Koroks under rocks",
+            "types": [
+                "Rocks"
+            ]
+        },
+        {
+            "name": "50 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Woodland Koroks",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "20 Tabantha Koroks",
+            "types": [
+                "Tabantha"
+            ]
+        },
+        {
+            "name": "10 Koroks from diving",
+            "types": [
+                "Diving"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Akkala Koroks",
+            "types": [
+                "Akkala"
+            ]
+        },
+        {
+            "name": "20 Hebra Koroks",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "Complete 'Trial of Second Sight'",
+            "types": [
+                "Quest"
+            ]
+        },
+        {
+            "name": "10 Koroks from shooting balloons",
+            "types": [
+                "Balloons"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Central Koroks",
+            "types": [
+                "Central"
+            ]
+        },
+        {
+            "name": "10 Koroks from acorns",
+            "types": [
+                "Acorns"
+            ]
+        },
+        {
+            "name": "10 Koroks from pinwheel acorns",
+            "types": [
+                "Pinwheel"
+            ]
+        },
+        {
+            "name": "70 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Dueling Peaks Koroks",
+            "types": [
+                "Dueling Peaks"
+            ]
+        },
+        {
+            "name": "10 Koroks from rock formations",
+            "types": [
+                "Formation"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Lake Koroks",
+            "types": [
+                "Lake"
+            ]
+        },
+        {
+            "name": "30 Ridgeland Koroks",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "10 Koroks from flower trails",
+            "types": [
+                "Trail"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Lanayru Koroks",
+            "types": [
+                "Lanayru"
+            ]
+        },
+        {
+            "name": "30 Wasteland Koroks",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "Complete 'The Lost Pilgrimage'",
+            "types": [
+                "Quest"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Hateno Koroks",
+            "types": [
+                "Hateno"
+            ]
+        },
+        {
+            "name": "30 Faron Koroks",
+            "types": [
+                "Faron"
+            ]
+        },
+        {
+            "name": "10 Koroks from cube puzzles",
+            "types": [
+                "Cube"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "10 Koroks from offerings",
+            "types": [
+                "offering"
+            ]
+        },
+        {
+            "name": "80 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Eldin Koroks",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "30 Woodland Koroks",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "10 Koroks from matching trees",
+            "types": [
+                "tree"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Tabantha Koroks",
+            "types": [
+                "Tabantha"
+            ]
+        },
+        {
+            "name": "30 Akkala Koroks",
+            "types": [
+                "Akkala"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "30 Hebra Koroks",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "20 Koroks under rocks",
+            "types": [
+                "Rocks"
+            ]
+        },
+        {
+            "name": "90 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "20 Koroks from sparkles",
+            "types": [
+                "Sparkles"
+            ]
+        },
+        {
+            "name": "100 Koroks",
+            "types": [
+                "total"
+            ]
+        }
+    ]
+]

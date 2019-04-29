@@ -16,7 +16,12 @@
     <script src="./js/bingo.js" type="text/javascript"></script>
 
     <!-- Bingo Table -->
-    <script src="./tables/board.js" type="text/javascript"></script>
+    <!--<script src="./tables/board.js" type="text/javascript"></script>-->
+    
+    <!-- Call bingo function -->
+    <script>
+        bingo();
+    </script>
 </head>
 
 <body>
@@ -33,6 +38,7 @@
                             <a class="sortButton" href="#" onclick="reseedPage();">Normal Card</a>
                             <a class="sortButton" href="#" onclick="reseedPage('short');">Short Card</a>
                             <a class="sortButton" href="#" onclick="reseedPage('long');">Long Card</a>
+                            <div><input id="exploration-check" type="checkbox">Exploration</div>
                         </p>
 
                         <h2 style="margin-top:35px; padding-top:0px">Bingo Save File</h2>
@@ -54,16 +60,22 @@
                             <li>The Horse God is not a Great Fairy.</li>
                             <li>Items obtained for goals must be kept until the end.</li>
                         </ul>
-                        <br /><br />
+                        <br />
+                        <h2 style="margin-top:5px; padding-top:0px">Other Board types:</h2>
+                        <ul>
+                            <li><a href="?board=normal_v1">Normal (v1)</a></li>
+                            <li><a href="?board=normal_v2">Normal (v2, experimental and in developement)</a></li>
+                            <li><a href="?board=plateau">Great Plateau</a></li>
+                            <li><a href="?board=korok">Korok</a></li>
+                            <li><a href="?board=shrine">Shrine</a></li>
+                        </ul><br />
                         <h2>Goal list for bingosync</h2>
-                        <span><a href="www.bingosync.com">bingosync</a> is a website to synchronize working on a bingoboard, since this goallist might be
-                        under construction, passing this as a custom board might be required</span>
+                        <p><a href="www.bingosync.com">bingosync</a> is a website to synchronize working on a bingoboard, since this goallist might be
+                        under construction, passing this as a custom board might be required</p>
                         <textarea id="bingosync-goals"></textarea>
                         <p><span class="note right">Breath of the Wild Bingo by the BotW Speedrun Discord</br></br>
-								<!-- For a Great Plateau only board <a href="../plateau/index.html">click here</a>.</br>
-								For a Korok seed gathering board <a href="../korok/index.html">click here</a>.</br>
-								For a Shrine board <a href="../shrine/index.html">click here</a>.</br></br>-->
-								This board was created by <a href="https://www.twitch.tv/blaust">Blaust</a>. </span></p>
+								This board was created by <a href="https://www.twitch.tv/blaust">Blaust</a>. </br>
+								Japanese translation by <a href="https://twitter.com/phantasm_cubist">Phanty</a> </span></p>
                     </div>
 
                     <div id="results">

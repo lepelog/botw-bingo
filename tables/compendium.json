@@ -1,0 +1,2266 @@
+[
+    [
+        {
+            "name": "Horse",
+            "types": [
+                "Hyrule Field, Faron Grasslands, Creature"
+            ]
+        },
+        {
+            "name": "Cucco",
+            "types": [
+                "West Necluda, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Sunset Firefly",
+            "types": [
+                "West Necluda, Great Hyrule Forest, Creature"
+            ]
+        },
+        {
+            "name": "Chuchu",
+            "types": [
+                "Hyrule Field, West Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Keese",
+            "types": [
+                "Hyrule Field, East Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Bokoblin",
+            "types": [
+                "Hyrule Field, West Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Decayed Guardian",
+            "types": [
+                "Hyrule Field, Hyrule Castle, Monster"
+            ]
+        },
+        {
+            "name": "Stone Talus",
+            "types": [
+                "West Necluda, East Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Apple",
+            "types": [
+                "Hyrule Field, East Necluda, Material"
+            ]
+        },
+        {
+            "name": "Hylian Shroom",
+            "types": [
+                "Hyrule Field, West Necluda, Material"
+            ]
+        },
+        {
+            "name": "Sunshroom",
+            "types": [
+                "Eldin Canyon, Gerudo Highlands, Material"
+            ]
+        },
+        {
+            "name": "Rushroom",
+            "types": [
+                "Gerudo Highlands, Hyrule Ridge, Material"
+            ]
+        },
+        {
+            "name": "Hyrule Herb",
+            "types": [
+                "Hyrule Field, Akkala Highlands, Material"
+            ]
+        },
+        {
+            "name": "Hearty Radish",
+            "types": [
+                "Hyrule Ridge, East Necluda, Material"
+            ]
+        },
+        {
+            "name": "Blue Nightshade",
+            "types": [
+                "West Necluda, Lanayru Great Spring, Material"
+            ]
+        },
+        {
+            "name": "Tree Branch",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Torch",
+            "types": [
+                "Great Hyrule Forest, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Rusty Broadsword",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Equipment"
+            ]
+        },
+        {
+            "name": "Boko Club",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Woodcutter's Axe",
+            "types": [
+                "West Necluda, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Iron Sledgehammer",
+            "types": [
+                "Eldin Canyon, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Traveler's Claymore",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Boko Bat",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Wooden Bow",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Boko Bow",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Arrow",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Equipment"
+            ]
+        },
+        {
+            "name": "Pot Lid",
+            "types": [
+                "Hyrule Field, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Rusty Shield",
+            "types": [
+                "Hyrule Field, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Treasure Chest",
+            "types": [
+                "Greater Hyrule, Treasure"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Woodland Boar",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Creature"
+            ]
+        },
+        {
+            "name": "Hylian Retriever",
+            "types": [
+                "Akkala Highlands, Hebra Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Hyrule Bass",
+            "types": [
+                "Hyrule Field, West Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Fairy",
+            "types": [
+                "Greater Hyrule, Creature"
+            ]
+        },
+        {
+            "name": "Bladed Rhino Beetle",
+            "types": [
+                "West Necluda, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Water Octorok",
+            "types": [
+                "West Necluda, Hyrule Field, Monster"
+            ]
+        },
+        {
+            "name": "Forest Octorok",
+            "types": [
+                "Hyrule Ridge, Deep Akkala, Monster"
+            ]
+        },
+        {
+            "name": "Fire Wizzrobe",
+            "types": [
+                "Hyrule Field, Great Hyrule Forest, Monster"
+            ]
+        },
+        {
+            "name": "Blue Bokoblin",
+            "types": [
+                "Gerudo Desert, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Moblin",
+            "types": [
+                "Hyrule Field, East Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Lizalfos",
+            "types": [
+                "Lanayru Great Spring, Gerudo Desert, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Stalker",
+            "types": [
+                "Hyrule Field, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Scout I",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Hinox",
+            "types": [
+                "East Necluda, West Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Spicy Pepper",
+            "types": [
+                "Gerudo Desert, Tabantha Frontier, Material"
+            ]
+        },
+        {
+            "name": "Stamella Shroom",
+            "types": [
+                "Hyrule Ridge, Hyrule Field, Material"
+            ]
+        },
+        {
+            "name": "Ironshroom",
+            "types": [
+                "West Necluda, East Necluda, Material"
+            ]
+        },
+        {
+            "name": "Silent Shroom",
+            "types": [
+                "Lanayru Great Spring, West Necluda, Material"
+            ]
+        },
+        {
+            "name": "Swift Carrot",
+            "types": [
+                "Kakariko Village, Material"
+            ]
+        },
+        {
+            "name": "Courser Bee Honey",
+            "types": [
+                "Hyrule Field, Tabantha Frontier, Material"
+            ]
+        },
+        {
+            "name": "Spiked Boko Club",
+            "types": [
+                "Faron Grasslands, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Fire Rod",
+            "types": [
+                "Gerudo Highlands, Great Hyrule Forest, Equipment"
+            ]
+        },
+        {
+            "name": "Korok Leaf",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Rusty Claymore",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Equipment"
+            ]
+        },
+        {
+            "name": "Great Flameblade",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Equipment"
+            ]
+        },
+        {
+            "name": "Moblin Club",
+            "types": [
+                "Gerudo Highlands, Faron Grasslands, Equipment"
+            ]
+        },
+        {
+            "name": "Throwing Spear",
+            "types": [
+                "West Necluda, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Rusty Halberd",
+            "types": [
+                "Hyrule Field, Great Hyrule Forest, Equipment"
+            ]
+        },
+        {
+            "name": "Boko Spear",
+            "types": [
+                "West Necluda, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Traveler's Bow",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Fire Arrow",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Equipment"
+            ]
+        },
+        {
+            "name": "Ice Arrow",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Bomb Arrow",
+            "types": [
+                "Hyrule Field, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Wooden Shield",
+            "types": [
+                "Hyrule Field, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Ore Deposit",
+            "types": [
+                "Greater Hyrule, Treasure"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "White Horse",
+            "types": [
+                "Unknown, Creature"
+            ]
+        },
+        {
+            "name": "Bushy-Tailed Squirrel",
+            "types": [
+                "Hyrule Field, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Mountain Goat",
+            "types": [
+                "Hyrule Ridge, Great Hyrule Forest, Creature"
+            ]
+        },
+        {
+            "name": "Water Buffalo",
+            "types": [
+                "Lanayru Wetlands, Akkala Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Blupee",
+            "types": [
+                "Unknown, Creature"
+            ]
+        },
+        {
+            "name": "Winterwing Butterfly",
+            "types": [
+                "Hyrule Ridge, Tabantha Frontier, Creature"
+            ]
+        },
+        {
+            "name": "Hot-Footed Frog",
+            "types": [
+                "Lanayru Great Spring, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Ice Chuchu",
+            "types": [
+                "Gerudo Highlands, Hebra Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Lynel",
+            "types": [
+                "Lanayru Great Spring, Hyrule Field, Monster"
+            ]
+        },
+        {
+            "name": "Stone Pebblit",
+            "types": [
+                "Greater Hyrule, Monster"
+            ]
+        },
+        {
+            "name": "Stalnox",
+            "types": [
+                "Hyrule Field, West Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Palm Fruit",
+            "types": [
+                "East Necluda, Gerudo Desert, Material"
+            ]
+        },
+        {
+            "name": "Endura Shroom",
+            "types": [
+                "Hyrule Ridge, Hyrule Field, Material"
+            ]
+        },
+        {
+            "name": "Fortified Pumpkin",
+            "types": [
+                "Kakariko Village, Material"
+            ]
+        },
+        {
+            "name": "Swift Violet",
+            "types": [
+                "Gerudo Highlands, Hebra Mountains, Material"
+            ]
+        },
+        {
+            "name": "Silent Princess",
+            "types": [
+                "Hyrule Ridge, West Necluda, Material"
+            ]
+        },
+        {
+            "name": "Boomerang",
+            "types": [
+                "West Necluda, Faron Grasslands, Equipment"
+            ]
+        },
+        {
+            "name": "Traveler's Sword",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Bokoblin Arm",
+            "types": [
+                "Greater Hyrule, Equipment"
+            ]
+        },
+        {
+            "name": "Farming Hoe",
+            "types": [
+                "East Necluda, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Boat Oar",
+            "types": [
+                "East Necluda, Necluda Sea, Equipment"
+            ]
+        },
+        {
+            "name": "Soldier's Claymore",
+            "types": [
+                "Hyrule Field, Faron Grasslands, Equipment"
+            ]
+        },
+        {
+            "name": "Spiked Boko Bat",
+            "types": [
+                "Faron Grasslands, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Ancient Battle Axe",
+            "types": [
+                "Gerudo Desert, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Wooden Mop",
+            "types": [
+                "East Necluda, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Farmer's Pitchfork",
+            "types": [
+                "East Necluda, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Traveler's Spear",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Spiked Boko Spear",
+            "types": [
+                "Faron Grasslands, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Spear",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Spiked Boko Bow",
+            "types": [
+                "Faron Grasslands, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Boko Shield",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Shield",
+            "types": [
+                "West Necluda, Lanayru Great Spring, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Red-Tusked Boar",
+            "types": [
+                "Akkala Highlands, Deep Akkala, Creature"
+            ]
+        },
+        {
+            "name": "Mountain Buck",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Creature"
+            ]
+        },
+        {
+            "name": "Common Sparrow",
+            "types": [
+                "Hyrule Field, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Staminoka Bass",
+            "types": [
+                "Hyrule Field, West Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Sanke Carp",
+            "types": [
+                "West Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Sneaky River Snail",
+            "types": [
+                "West Necluda, Lanayru Great Spring, Creature"
+            ]
+        },
+        {
+            "name": "Restless Cricket",
+            "types": [
+                "Hyrule Field, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Fire Chuchu",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Ice Keese",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Electric Wizzrobe",
+            "types": [
+                "Hyrule Ridge, West Neclude, Monster"
+            ]
+        },
+        {
+            "name": "Stalkoblin",
+            "types": [
+                "Hyrule Field, Great Hyrule Forest, Monster"
+            ]
+        },
+        {
+            "name": "Blue Moblin",
+            "types": [
+                "Hyrule Field, Deep Akkala, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Scout II",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Stone Talus (Luminous)",
+            "types": [
+                "Gerudo Highlands, Hyrule Field, Monster"
+            ]
+        },
+        {
+            "name": "Farosh",
+            "types": [
+                "Lake Hylia, Lake Floria, Monster"
+            ]
+        },
+        {
+            "name": "Hearty Durian",
+            "types": [
+                "West Necluda, Faron Grasslands, Material"
+            ]
+        },
+        {
+            "name": "Hearty Truffle",
+            "types": [
+                "Great Hyrule Forest, Hyrule Field, Material"
+            ]
+        },
+        {
+            "name": "Zapshroom",
+            "types": [
+                "Deep Akkala, Gerudo Highlands, Material"
+            ]
+        },
+        {
+            "name": "Big Hearty Radish",
+            "types": [
+                "Akkala Highlands, Lanayru Great Spring, Material"
+            ]
+        },
+        {
+            "name": "Armoranth",
+            "types": [
+                "Akkala Highlands, Hyrule Ridge, Material"
+            ]
+        },
+        {
+            "name": "Soup Ladle",
+            "types": [
+                "Hyrule Field, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Soldier's Broadsword",
+            "types": [
+                "Hyrule Field, Faron Grasslands, Equipment"
+            ]
+        },
+        {
+            "name": "Eightfold Blade",
+            "types": [
+                "West Necluda, Lake Hylia, Equipment"
+            ]
+        },
+        {
+            "name": "Lizal Boomerang",
+            "types": [
+                "Lake Hylia, Lanayru Wetlands, Equipment"
+            ]
+        },
+        {
+            "name": "Lizalfos Arm",
+            "types": [
+                "Greater Hyrule, Equipment"
+            ]
+        },
+        {
+            "name": "Edge of Duality",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Great Frostblade",
+            "types": [
+                "Hebra Mountains, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Spiked Moblin Club",
+            "types": [
+                "Hyrule Field, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Fishing Harpoon",
+            "types": [
+                "East Necluda, Lake Hylia, Equipment"
+            ]
+        },
+        {
+            "name": "Soldier's Spear",
+            "types": [
+                "Hyrule Field, Faron Grasslands, Equipment"
+            ]
+        },
+        {
+            "name": "Moblin Spear",
+            "types": [
+                "Faron Grasslands, Gerudo Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Soldier's Bow",
+            "types": [
+                "Hyrule Field, Faron Grasslands, Equipment"
+            ]
+        },
+        {
+            "name": "Phrenic Bow",
+            "types": [
+                "West Necluda, Lake Hylia, Equipment"
+            ]
+        },
+        {
+            "name": "Shock Arrow",
+            "types": [
+                "Lanayru Great Spring, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Emblazoned Shield",
+            "types": [
+                "East Necluda, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Soldier's Shield",
+            "types": [
+                "Tabantha Frontier, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Luminous Stone Deposit",
+            "types": [
+                "Greater Hyrule, Treasure"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Giant Horse",
+            "types": [
+                "Unknown, Creature"
+            ]
+        },
+        {
+            "name": "Donkey",
+            "types": [
+                "Greater Hyrule, Creature"
+            ]
+        },
+        {
+            "name": "White Goat",
+            "types": [
+                "West Necluda, Eldin Canyon, Creature"
+            ]
+        },
+        {
+            "name": "Mountain Doe",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Creature"
+            ]
+        },
+        {
+            "name": "Grassland Fox",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Creature"
+            ]
+        },
+        {
+            "name": "Blue-Winged Heron",
+            "types": [
+                "Hyrule Ridge, Faron Grasslands, Creature"
+            ]
+        },
+        {
+            "name": "Islander Hawk",
+            "types": [
+                "Hyrule Field, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Armored Porgy",
+            "types": [
+                "Necluda Sea, Lanayru Sea, Creature"
+            ]
+        },
+        {
+            "name": "Summerwing Butterfly",
+            "types": [
+                "Great Hyrule Forest, Eldin Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Thunderwing Butterfly",
+            "types": [
+                "Hyrule Ridge, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Smotherwing Butterfly",
+            "types": [
+                "Eldin Canyon, Death Mountain, Creature"
+            ]
+        },
+        {
+            "name": "Electric Chuchu",
+            "types": [
+                "Gerudo Highlands, East Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Meteo Wizzrobe",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Monster"
+            ]
+        },
+        {
+            "name": "Black Bokoblin",
+            "types": [
+                "Hyrule Field, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Stalmoblin",
+            "types": [
+                "Great Hyrule Forest, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Blue Lizalfos",
+            "types": [
+                "Tabantha Frontier, Gerudo Desert, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Skywatcher",
+            "types": [
+                "Hyrule Field, Akkala Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Blue Hinox",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Monster"
+            ]
+        },
+        {
+            "name": "Wildberry",
+            "types": [
+                "Gerudo Highlands, Material"
+            ]
+        },
+        {
+            "name": "Fleet-Lotus Seeds",
+            "types": [
+                "Lanayru Wetlands, Lanayru Great Spring, Material"
+            ]
+        },
+        {
+            "name": "Razorshroom",
+            "types": [
+                "Great Hyrule Forest, Tabantha Frontier, Material"
+            ]
+        },
+        {
+            "name": "Cool Safflina",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Material"
+            ]
+        },
+        {
+            "name": "Endura Carrot",
+            "types": [
+                "Hyrule Ridge, Faron Grasslands, Material"
+            ]
+        },
+        {
+            "name": "Mighty Thistle",
+            "types": [
+                "West Necluda, Faron Grasslands, Material"
+            ]
+        },
+        {
+            "name": "Guardian Sword",
+            "types": [
+                "Eldin Canyon, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Ice Rod",
+            "types": [
+                "Gerudo Highlands, Eldin Canyon, Equipment"
+            ]
+        },
+        {
+            "name": "Giant Boomerang",
+            "types": [
+                "West Necluda, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Knight's Claymore",
+            "types": [
+                "Gerudo Desert, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Dragonbone Boko Bat",
+            "types": [
+                "Hyrule Ridge, Necluda Sea, Equipment"
+            ]
+        },
+        {
+            "name": "Moblin Arm",
+            "types": [
+                "Greater Hyrule, Equipment"
+            ]
+        },
+        {
+            "name": "Spiked Moblin Spear",
+            "types": [
+                "Gerudo Highlands, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Lizal Spear",
+            "types": [
+                "Lanayru Wetlands, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Knight's Shield",
+            "types": [
+                "Hebra Mountains, Eldin Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Shield of the Mind's Eye",
+            "types": [
+                "West Necluda, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Lizal Shield",
+            "types": [
+                "Lake Hylia, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Hateno Cow",
+            "types": [
+                "East Necluda, Faron Grasslands, Creature"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Mountain Crow",
+            "types": [
+                "Hyrule Ridge, Great Hyrule Forest, Creature"
+            ]
+        },
+        {
+            "name": "Hearty Bass",
+            "types": [
+                "West Necluda, Akkala Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Mighty Porgy",
+            "types": [
+                "Necluda Sea, Lanayru Sea, Creature"
+            ]
+        },
+        {
+            "name": "Bright-Eyed Crab",
+            "types": [
+                "Lanayru Great Spring, Eldin Canyon, Creature"
+            ]
+        },
+        {
+            "name": "Cold Darner",
+            "types": [
+                "Tabantha Frontier, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Fire Keese",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Electric Keese",
+            "types": [
+                "Lanayru Great Spring, East Necluda, Monster"
+            ]
+        },
+        {
+            "name": "Ice Wizzrobe",
+            "types": [
+                "Gerudo Highlands, Hyrule Field, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Scout III",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Hydromelon",
+            "types": [
+                "Gerudo Desert, Faron Grasslands, Material"
+            ]
+        },
+        {
+            "name": "Mighty Bananas",
+            "types": [
+                "Faron, Material"
+            ]
+        },
+        {
+            "name": "Forest Dweller's Sword",
+            "types": [
+                "Great Hyrule Forest, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Dragonbone Boko Club",
+            "types": [
+                "Hyrule Ridge, Necluda Sea, Equipment"
+            ]
+        },
+        {
+            "name": "Lizal Forked Boomerang",
+            "types": [
+                "Gerudo Desert, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Great Thunderblade",
+            "types": [
+                "Hyrule Field, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Ancient Battle Axe+",
+            "types": [
+                "Akkala Highlands, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Knight's Halberd",
+            "types": [
+                "Tabantha Frontier, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Dragonbone Boko Spear",
+            "types": [
+                "Necluda Sea, Hyrule Ridge, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Spear+",
+            "types": [
+                "Gerudo Highlands, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Forest Dweller's Bow",
+            "types": [
+                "Tabantha Frontier, Hyrule Ridge, Equipment"
+            ]
+        },
+        {
+            "name": "Dragon Bone Boko Bow",
+            "types": [
+                "Hyrule Ridge, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Ancient Arrow",
+            "types": [
+                "Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Traveler's Shield",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Gerudo Shield",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Spiked Boko Shield",
+            "types": [
+                "Faron Grasslands, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Rare Ore Deposit",
+            "types": [
+                "Greater Hyrule, Treasure"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Highland Sheep",
+            "types": [
+                "East Necluda, Akkala Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Red Sparrow",
+            "types": [
+                "Hebra Mountains, Tabantha Frontier, Creature"
+            ]
+        },
+        {
+            "name": "Wood Pigeon",
+            "types": [
+                "Great Hyrule Forest, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Bright-Chested Duck",
+            "types": [
+                "Hyrule Ridge, Hyrule Field, Creature"
+            ]
+        },
+        {
+            "name": "Hearty Salmon",
+            "types": [
+                "Tabantha Frontier, Hebra Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Hearty Blueshell Snail",
+            "types": [
+                "Lanayru Sea, Necluda Sea, Creature"
+            ]
+        },
+        {
+            "name": "Warm Darner",
+            "types": [
+                "Akkala Highlands, Hyrule Field, Creature"
+            ]
+        },
+        {
+            "name": "Treasure Octorok",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Monster"
+            ]
+        },
+        {
+            "name": "Blizzrobe",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Black Moblin",
+            "types": [
+                "Hyrule Field, Eldin Canyon, Monster"
+            ]
+        },
+        {
+            "name": "Blue-Maned Lynel",
+            "types": [
+                "Hyrule Field, Deep Akkala, Monster"
+            ]
+        },
+        {
+            "name": "Stone Talus (Rare)",
+            "types": [
+                "Hyrule Field, Tabantha Frontier, Monster"
+            ]
+        },
+        {
+            "name": "Frost Pebblit",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Voltfruit",
+            "types": [
+                "Gerudo Desert, Gerudo Highlands, Material"
+            ]
+        },
+        {
+            "name": "Warm Safflina",
+            "types": [
+                "Gerudo Desert, Hyrule Ridge, Material"
+            ]
+        },
+        {
+            "name": "Electric Safflina",
+            "types": [
+                "Gerudo Desert, Hyrule Ridge, Material"
+            ]
+        },
+        {
+            "name": "Gerudo Scimitar",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Sword+",
+            "types": [
+                "Gerudo Highlands, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Lightning Rod",
+            "types": [
+                "West Necluda, Hyrule Ridge, Equipment"
+            ]
+        },
+        {
+            "name": "Double Axe",
+            "types": [
+                "West Necluda, Gerudo Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Claymore",
+            "types": [
+                "Tabantha Frontier, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Dragonbone Moblin Club",
+            "types": [
+                "Hebra Mountains, Eldin Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Forest Dweller's Spear",
+            "types": [
+                "Great Hyrule Forest, Hyrule Ridge, Equipment"
+            ]
+        },
+        {
+            "name": "Zora Spear",
+            "types": [
+                "Lanayru Great Spring, Lake Hylia, Equipment"
+            ]
+        },
+        {
+            "name": "Knight's Bow",
+            "types": [
+                "Gerudo Desert, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Shield",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Silver Shield",
+            "types": [
+                "Lanayru Great Spring, Lake Hylia, Equipment"
+            ]
+        },
+        {
+            "name": "Reinforced Lizal Shield",
+            "types": [
+                "Tabantha Frontier, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Shield+",
+            "types": [
+                "East Necluda, Faron Grasslands, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Sand Seal",
+            "types": [
+                "Gerudo Desert, Creature"
+            ]
+        },
+        {
+            "name": "Maraudo Wolf",
+            "types": [
+                "Tabantha Frontier, Great Hyrule Forest, Creature"
+            ]
+        },
+        {
+            "name": "Honeyvore Bear",
+            "types": [
+                "Tabantha Frontier, Akkala Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Golden Sparrow",
+            "types": [
+                "Great Hyrule Forest, Eldin Canyon, Creature"
+            ]
+        },
+        {
+            "name": "Rainbow Pigeon",
+            "types": [
+                "Hyrule Ridge, Great Hyrule Forest, Creature"
+            ]
+        },
+        {
+            "name": "Pink Heron",
+            "types": [
+                "Hyrule Ridge, Hyrule Field, Creature"
+            ]
+        },
+        {
+            "name": "Seagull",
+            "types": [
+                "Necluda Sea, Akkala Sea, Creature"
+            ]
+        },
+        {
+            "name": "Chillfin Trout",
+            "types": [
+                "Tabantha Frontier, Hebra Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Razorclaw Crab",
+            "types": [
+                "Necluda Sea, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Rugged Rhino Beetle",
+            "types": [
+                "Hyrule Field, Faron Grasslands, Creature"
+            ]
+        },
+        {
+            "name": "Energetic Rhino Beetle",
+            "types": [
+                "Akkala Highlands, West Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Thunder Wizzrobe",
+            "types": [
+                "Hyrule Field, Tabantha Frontier, Monster"
+            ]
+        },
+        {
+            "name": "Black Lizalfos",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Electric Lizalfos",
+            "types": [
+                "Gerudo Desert, Hyrule Ridge, Monster"
+            ]
+        },
+        {
+            "name": "Sentry",
+            "types": [
+                "Death Mountain, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Scout IV",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Igneo Pebblit",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Dinraal",
+            "types": [
+                "Eldin Mountains, Tabantha Frontier, Monster"
+            ]
+        },
+        {
+            "name": "Big Hearty Truffle",
+            "types": [
+                "Hebra Mountains, Great Hyrule Forest, Material"
+            ]
+        },
+        {
+            "name": "Knight's Broadsword",
+            "types": [
+                "Gerudo Desert, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Lizal Tri-Boomerang",
+            "types": [
+                "Hebra Mountains, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Silver Longsword",
+            "types": [
+                "Lanayru Great Spring, Lanayru Wetlands, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Halberd",
+            "types": [
+                "Gerudo Highlands, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Silverscale Spear",
+            "types": [
+                "Akkala Highlands, Lanayru Great Spring, Equipment"
+            ]
+        },
+        {
+            "name": "Drillshaft",
+            "types": [
+                "Eldin Canyon, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Guard's Spear",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Dragonbone Moblin Spear",
+            "types": [
+                "Hebra Mountains, Eldin Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Lizal Bow",
+            "types": [
+                "Lanayru Great Spring, Lanayru Wetlands, Equipment"
+            ]
+        },
+        {
+            "name": "Forest Dweller's Shield",
+            "types": [
+                "Great Hyrule Forest, Equipment"
+            ]
+        },
+        {
+            "name": "Radiant Shield",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Steel Lizal Shield",
+            "types": [
+                "Hebra Mountains, Akkala Highlands, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Blue Sparrow",
+            "types": [
+                "Lanayru Great Spring, Great Hyrule Forest, Creature"
+            ]
+        },
+        {
+            "name": "Armored Carp",
+            "types": [
+                "Lanayru Great Spring, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Ironshell Crab",
+            "types": [
+                "Necluda Sea, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Electric Darner",
+            "types": [
+                "Hyrule Ridge, Gerudo Desert, Creature"
+            ]
+        },
+        {
+            "name": "Rock Octorok",
+            "types": [
+                "Eldin Canyon, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Silver Bokoblin",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Silver Moblin",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Ice-Breath Lizalfos",
+            "types": [
+                "Gerudo Highlands, Hebra Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Turret",
+            "types": [
+                "Hyrule Castle, Monster"
+            ]
+        },
+        {
+            "name": "Igneo Talus",
+            "types": [
+                "Eldin Canyon, Monster"
+            ]
+        },
+        {
+            "name": "Guardian Sword++",
+            "types": [
+                "Hebra Mountains, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Blizzard Rod",
+            "types": [
+                "Gerudo Highlands, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Vicious Sickle",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Guard's Claymore",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Ancient Battle Axe++",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Ceremonial Trident",
+            "types": [
+                "Lanayru Great Spring, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Spear++",
+            "types": [
+                "Hebra Mountains, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Bow",
+            "types": [
+                "Tabantha Frontier, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Swallow Bow",
+            "types": [
+                "Tabantha Frontier, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Guard's Bow",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Strengthened Lizal Bow",
+            "types": [
+                "Tabantha Frontier, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Fisherman's Shield",
+            "types": [
+                "East Necluda, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Kite Shield",
+            "types": [
+                "Hebra Mountains, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Guard's Shield",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Dragonbone Boko Shield",
+            "types": [
+                "Hyrule Ridge, Necluda Sea, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Patricia",
+            "types": [
+                "Gerudo Desert, Creature"
+            ]
+        },
+        {
+            "name": "Tabantha Moose",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Rainbow Sparrow",
+            "types": [
+                "Faron Grasslands, West Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Mighty Carp",
+            "types": [
+                "Akkala Highlands, Lanayru Great Spring, Creature"
+            ]
+        },
+        {
+            "name": "Frost Talus",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Monster"
+            ]
+        },
+        {
+            "name": "Black Hinox",
+            "types": [
+                "East Necluda, Hyrule Field, Monster"
+            ]
+        },
+        {
+            "name": "Chillshroom",
+            "types": [
+                "Hebra Mountains, Mount Lanayru, Material"
+            ]
+        },
+        {
+            "name": "Moonlight Scimitar",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Flameblade",
+            "types": [
+                "Hyrule Field, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Eightfold Longblade",
+            "types": [
+                "West Necluda, Lanayru Great Spring, Equipment"
+            ]
+        },
+        {
+            "name": "Flamespear",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Frostspear",
+            "types": [
+                "Hebra Mountains, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Thunderspear",
+            "types": [
+                "Hyrule Ridge, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Silver Bow",
+            "types": [
+                "Lanayru Great Spring, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Steel Lizal Bow",
+            "types": [
+                "Hebra Mountains, Akkala Highlands, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Snowcoat Fox",
+            "types": [
+                "Hebra Mountains, Tabantha Frontier, Creature"
+            ]
+        },
+        {
+            "name": "Cold-Footed Wolf",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Great-Horned Rhinoceros",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Grizzlemaw Bear",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Sand Sparrow",
+            "types": [
+                "Gerudo Desert, Creature"
+            ]
+        },
+        {
+            "name": "Hotfeather Pigeon",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Creature"
+            ]
+        },
+        {
+            "name": "White Pigeon",
+            "types": [
+                "Hebra Mountains, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Hightail Lizard",
+            "types": [
+                "West Necluda, East Necluda, Creature"
+            ]
+        },
+        {
+            "name": "Fire-Breath Lizalfos",
+            "types": [
+                "Eldin Canyon, Gerudo Desert, Monster"
+            ]
+        },
+        {
+            "name": "Yiga Footsoldier",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Molduga",
+            "types": [
+                "Gerudo Desert, Monster"
+            ]
+        },
+        {
+            "name": "Feathered Edge",
+            "types": [
+                "Tabantha Frontier, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Frostblade",
+            "types": [
+                "Gerudo Highlands, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Lynel Sword",
+            "types": [
+                "Lanayru Great Spring, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Thunderstorm Rod",
+            "types": [
+                "Hyrule Field, Hyrule Ridge, Equipment"
+            ]
+        },
+        {
+            "name": "Golden Claymore",
+            "types": [
+                "Gerudo Highlands, Hyrule Ridge, Equipment"
+            ]
+        },
+        {
+            "name": "Serpentine Spear",
+            "types": [
+                "East Necluda, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Enhanced Lizal Spear",
+            "types": [
+                "Tabantha Frontier, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Golden Bow",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Hylian Shield",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Guardian Shield++",
+            "types": [
+                "Gerudo Highlands, Akkala Highlands, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Wasteland Coyote",
+            "types": [
+                "Gerudo Desert, Gerudo Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Eldin Ostrich",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Voltfin Trout",
+            "types": [
+                "Tabantha Frontier, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Hearty Lizard",
+            "types": [
+                "Gerudo Desert, Necluda Sea, Creature"
+            ]
+        },
+        {
+            "name": "Naydra",
+            "types": [
+                "Mount Lanayru, Monster"
+            ]
+        },
+        {
+            "name": "Zora Sword",
+            "types": [
+                "Lanayru Great Spring, East Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Royal Guard's Sword",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Thunderblade",
+            "types": [
+                "Hyrule Field, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Demon Carver",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Forked Lizal Spear",
+            "types": [
+                "Eldin Canyon, Akkala Highlands, Equipment"
+            ]
+        },
+        {
+            "name": "Falcon Bow",
+            "types": [
+                "Tabantha Frontier, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Hunter's Shield",
+            "types": [
+                "Hebra Mountains, Lanayru Wetlands, Equipment"
+            ]
+        },
+        {
+            "name": "Sizzlefin Trout",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Fireproof Lizard",
+            "types": [
+                "Eldin Canyon, Death Mountain, Creature"
+            ]
+        },
+        {
+            "name": "Royal Broadsword",
+            "types": [
+                "Tabantha Frontier, Akkala Highlands, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Mighty Lynel Sword",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Equipment"
+            ]
+        },
+        {
+            "name": "Cobble Crusher",
+            "types": [
+                "Eldin Canyon, Eldin Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Lynel Crusher",
+            "types": [
+                "Gerudo Highlands, Tabantha Frontier, Equipment"
+            ]
+        },
+        {
+            "name": "Lynel Spear",
+            "types": [
+                "Gerudo Highlands, West Necluda, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Stealthfin Trout",
+            "types": [
+                "Great Hyrule Forest, Eldin Mountains, Creature"
+            ]
+        },
+        {
+            "name": "Tireless Frog",
+            "types": [
+                "Lanayru Great Spring, Hyrule Ridge, Creature"
+            ]
+        },
+        {
+            "name": "Stalizalfos",
+            "types": [
+                "Gerudo Desert, Hyrule Ridge, Monster"
+            ]
+        },
+        {
+            "name": "Silver Lizalfos",
+            "types": [
+                "Unknown, Monster"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Cursed Bokoblin",
+            "types": [
+                "Unknown, Monster"
+            ]
+        },
+        {
+            "name": "Meteor Rod",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Windcleaver",
+            "types": [
+                "Gerudo Highlands, West Necluda, Equipment"
+            ]
+        },
+        {
+            "name": "Feathered Spear",
+            "types": [
+                "Tabantha Frontier, Hyrule Field, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Gerudo Spear",
+            "types": [
+                "Gerudo Highlands, Gerudo Desert, Equipment"
+            ]
+        },
+        {
+            "name": "Lynel Bow",
+            "types": [
+                "Gerudo Highlands, Lanayru Great Spring, Equipment"
+            ]
+        },
+        {
+            "name": "Duplex Bow",
+            "types": [
+                "Gerudo Highlands, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Snow Octorok",
+            "types": [
+                "Gerudo Highlands, Tabantha Frontier, Monster"
+            ]
+        },
+        {
+            "name": "White-Maned Lynel",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Monster"
+            ]
+        },
+        {
+            "name": "Master Sword",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Savage Lynel Sword",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Stone Smasher",
+            "types": [
+                "Eldin Canyon, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Lynel Shield",
+            "types": [
+                "Lanayru Great Spring, Hyrule Field, Equipment"
+            ]
+        },
+        {
+            "name": "Yiga Blademaster",
+            "types": [
+                "Unknown, Monster"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Ancient Short Sword",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Mighty Lynel Crusher",
+            "types": [
+                "Gerudo Highlands, Hebra Mountains, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Ancient Bow",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Ancient Shield",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Silver Lynel",
+            "types": [
+                "Unknown, Monster"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Ancient Bladesaw",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Mighty Lynel Bow",
+            "types": [
+                "Hyrule Field, Deep Akkala, Equipment"
+            ]
+        },
+        {
+            "name": "Cursed Lizalfos",
+            "types": [
+                "Unknown, Monster"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Ancient Spear",
+            "types": [
+                "Unknown, Equipment"
+            ]
+        },
+        {
+            "name": "Mighty Lynel Spear",
+            "types": [
+                "Great Hyrule Forest, Deep Akkala, Equipment"
+            ]
+        },
+        {
+            "name": "Mighty Lynel Shield",
+            "types": [
+                "Hyrule Field, Lanayru Great Spring, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Savage Lynel Crusher",
+            "types": [
+                "Hebra Mountains, Eldin Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Savage Lynel Spear",
+            "types": [
+                "Gerudo Highlands, Hebra Mountains, Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Savage Lynel Shield",
+            "types": [
+                "Hyrule Field, Hebra Mountains, Equipment"
+            ]
+        },
+        {
+            "name": "Stalhorse",
+            "types": [
+                "Hebra Mountains, Akkala Highlands, Creature"
+            ]
+        },
+        {
+            "name": "Savage Lynel Bow",
+            "types": [
+                "Hebra Mountains, Hyrule Field, Equipment"
+            ]
+        }
+    ]
+]

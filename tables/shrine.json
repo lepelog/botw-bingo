@@ -1,0 +1,784 @@
+[
+    [
+        {
+            "name": "<u>Dah Kaso</u><br>A Minor Test of Strength",
+            "types": [
+                "Central",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Rota Ooh</u><br>Passing of the Gates",
+            "types": [
+                "Central"
+            ]
+        },
+        {
+            "name": "<u>Kaam Ya'tak</u><br>Trial of Power",
+            "types": [
+                "Central"
+            ]
+        },
+        {
+            "name": "<u>Wahgo Katta</u><br>Metal Connections",
+            "types": [
+                "Central"
+            ]
+        },
+        {
+            "name": "<u>Bosh Kala</u><br>The Wind Guides You",
+            "types": [
+                "Dueling Peaks"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Hila Rao</u><br>Drifting<br> 'Watch Out for the Flowers'",
+            "types": [
+                "Central",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Ta'loh Naeg's Teaching</u>",
+            "types": [
+                "Dueling Peaks",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Ree Dahee</u><br>Timing is Critical",
+            "types": [
+                "Dueling Peaks"
+            ]
+        },
+        {
+            "name": "<u>Ha Dahamar</u><br>The Water Guides",
+            "types": [
+                "Dueling Peaks",
+                "Stable"
+            ]
+        },
+        {
+            "name": "<u>Toto Sah Apparatus</u>",
+            "types": [
+                "Dueling Peaks",
+                "Motion"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Kaya Wan</u><br>Shields from Water",
+            "types": [
+                "Lanayru",
+                "Stable"
+            ]
+        },
+        {
+            "name": "<u>Jee Noh</u><br>On the Move",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "<u>Ya Naga</u><br>Shatter the Heavens",
+            "types": [
+                "Lake"
+            ]
+        },
+        {
+            "name": "<u>Pumaag Nitae</u><br>A Minor Test of Strength",
+            "types": [
+                "Lake",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Ka'o Makagh</u><br>Metal Doors Open the Way",
+            "types": [
+                "Dueling Peaks",
+                "Stable"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Mogg Latan</u><br>Synched Swing",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "<u>Sheem Dagoze</u><br>Moving in Parallel <br> 'The Two Rings' ",
+            "types": [
+                "Ridgeland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Katah Chuki</u><br>A Minor Test of Strength",
+            "types": [
+                "Central",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Noya Neha</u><br>A Minor Test of Strength",
+            "types": [
+                "Central",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Daka Tuss</u><br>Sunken Scoop",
+            "types": [
+                "Lanayru"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Sheh Rata</u><br>Speed of Light",
+            "types": [
+                "Lanayru"
+            ]
+        },
+        {
+            "name": "<u>Soh Kofi </u><br>A Minor Test of Strength",
+            "types": [
+                "Lanayru",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Zalta Wa</u><br>Two Orbs to Guide You",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "<u>Shai Utoh</u><br>Halt the Tilt",
+            "types": [
+                "Faron",
+                "Stable"
+            ]
+        },
+        {
+            "name": "<u>Namika Ozz</u><br>A Modest Test of Strength",
+            "types": [
+                "Central",
+                "Test"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Mirro Shaz</u><br>Tempered Power",
+            "types": [
+                "Woodland",
+                "Stable"
+            ]
+        },
+        {
+            "name": "<u>Kam Urog</u><br>Trial of Passage<br> 'The Cursed Statue'",
+            "types": [
+                "Hateno",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Dunba Taag</u><br>Build and Release",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "<u>Shae Loya</u><br>Aim for the Moment",
+            "types": [
+                "Ridgeland"
+            ]
+        },
+        {
+            "name": "<u>Mo'a Keet</u><br>Metal Makes a Path",
+            "types": [
+                "Eldin"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Kay Noh</u><br>Power of Electricity",
+            "types": [
+                "Wasteland",
+                "Stable"
+            ]
+        },
+        {
+            "name": "<u>Ishto Soh</u><br>Bravery's Grasp",
+            "types": [
+                "Lake"
+            ]
+        },
+        {
+            "name": "<u>Ze Kasho Apparatus</u><br>",
+            "types": [
+                "Akkala",
+                "Motion"
+            ]
+        },
+        {
+            "name": "<u>Lanno Kooh</u><br>''the Freezing River'",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Yah Rin</u><br>A Weighty Decision",
+            "types": [
+                "Faron"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Rucco Maag</u><br>Five Flames",
+            "types": [
+                "Lanayru"
+            ]
+        },
+        {
+            "name": "<u>Daqo Chisay</u><br>The Whole Picture",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "<u>Katosa Aug Apparatus</u><br>",
+            "types": [
+                "Akkala",
+                "Motion"
+            ]
+        },
+        {
+            "name": "<u>Sah Dahaj</u><br>Power of Fire",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "<u>Ke'nai Shakah</u><br>Modest Test of Strength",
+            "types": [
+                "Akkala",
+                "Test"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Keeha Yoog</u><br>'Cliffside Etchings'",
+            "types": [
+                "Gerudo",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Sha Warvo</u><br>Path of Hidden Winds",
+            "types": [
+                "Tabantha"
+            ]
+        },
+        {
+            "name": "<u>Hawa Koth</u><br>The Current Solution",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "<u>Qua Raym</u><br>A Balanced Approach",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "<u>Muwo Jeem</u><br>A Modest Test of Strength",
+            "types": [
+                "Faron"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Dow Na'eh</u><br>Three Boxes",
+            "types": [
+                "Hateno"
+            ]
+        },
+        {
+            "name": "<u>Mezza Lo</u><br>Ancient Trifecta<br>'The Crowned Beast'",
+            "types": [
+                "Hateno",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Maag No'rah</u><br>Maag No'rah's Blessing",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "<u>Kuh Takkar</u><br>Melting Ice Hazard",
+            "types": [
+                "Gerudo"
+            ]
+        },
+        {
+            "name": "<u>Dah Hesho</u><br>A Minor Test of Strength",
+            "types": [
+                "Akkala",
+                "Test"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Monya Toma</u><br>Drawing Parabolas",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "<u>Kah Okeo</u><br>Wind Guide",
+            "types": [
+                "Tabantha"
+            ]
+        },
+        {
+            "name": "<u>Tah Muhl</u><br>Passing the Flame <br> 'A Landscape of a Stable'",
+            "types": [
+                "Eldin",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Gorae Torr</u><br>'Gut Check Challenge'",
+            "types": [
+                "Eldin",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Rin Oyaa</u><br>Directing the Wind",
+            "types": [
+                "Eldin",
+                "Stable"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Jitan Sa'mi</u><br>'The Spring of Wisdom'",
+            "types": [
+                "Hateno",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Sha Gehma</u><br>Shift and Lock",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Ritaag Zumo</u><br>'Into the Vortex'",
+            "types": [
+                "Akkala",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Mozo Shenno</u><br>A Major Test of Strength",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Myahm Agana</u><br>Myahm Agana Apparatus",
+            "types": [
+                "Hateno"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Shai Yota</u><br>'Master of the Wind'",
+            "types": [
+                "Lanayru",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Rona Kachta</u><br>'Forgotten Temple'",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "<u>Tu Ka'loh</u><br>'Trial of the Labyrinth'",
+            "types": [
+                "Akkala",
+                "Labyrinth"
+            ]
+        },
+        {
+            "name": "<u>Qaza Tokki</u><br>'Trial on the Cliff'",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Shae Mo'sah</u><br>Swinging Flames",
+            "types": [
+                "Eldin"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Lakna Rokee</u><br>'The Stolen Heirloom'",
+            "types": [
+                "Dueling Peaks",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Akh Va'quot</u><br>Windmills",
+            "types": [
+                "Tabantha"
+            ]
+        },
+        {
+            "name": "<u>Keo Ruug</u><br>Fateful Stars",
+            "types": [
+                "Woodland"
+            ]
+        },
+        {
+            "name": "<u>Dila Maag</u><br>'The Desert Labyrinth'",
+            "types": [
+                "Wasteland"
+            ]
+        },
+        {
+            "name": "<u>Rok Uwog</u><br>Power of Reach",
+            "types": [
+                "Hebra"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Tena Ko'sah</u><br>A Major Test of Strength",
+            "types": [
+                "Tabantha",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Toh Yahsa</u><br>Buried Secrets<br>'Trial of Thunder'",
+            "types": [
+                "Ridgeland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Maag Halan</u><br>'The Test of Wood'",
+            "types": [
+                "Woodland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Shora Hah</u><br>Blue Flame",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "<u>Gee Ha'rah</u><br>Tandem",
+            "types": [
+                "Hebra"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Tahno O'ah</u><br>'Secret of the Cedars'",
+            "types": [
+                "Hateno",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Zuna Kai</u><br>'The Skull's Eye",
+            "types": [
+                "Akkala",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Daqa Koh</u><br>Stalled Flight",
+            "types": [
+                "Eldin"
+            ]
+        },
+        {
+            "name": "<u>Tawa Jinn</u><br>'The Three Giant Brothers'",
+            "types": [
+                "Faron",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Shee Venath</u><br>Twin Memories",
+            "types": [
+                "Dueling Peaks"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Kah Mael</u><br>Drop and Rise",
+            "types": [
+                "Akkala"
+            ]
+        },
+        {
+            "name": "<u>Shee Vaneer</u><br>Twin Memories",
+            "types": [
+                "Dueling Peaks"
+            ]
+        },
+        {
+            "name": "<u>Kema Zoos</u><br>A Delayed Puzzle<br>'The Silent Swordswomen'",
+            "types": [
+                "Woodland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Kuhn Sidajj</u><br>' Trial of Second Sight'",
+            "types": [
+                "Woodland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Hia Miu</u><br>A Major Test of Strength",
+            "types": [
+                "Hebra"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Ketoh Wawai</u><br>'Shrouded Shrine'",
+            "types": [
+                "Woodland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Ne'ez Yohma</u><br>Pushing Power",
+            "types": [
+                "Lanayru"
+            ]
+        },
+        {
+            "name": "<u>Kema Kosassa</u><br>A Major Test of Strength",
+            "types": [
+                "Gerudo"
+            ]
+        },
+        {
+            "name": "<u>Maka Rah</u><br>Steady Thy Heart",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Goma Asaagh</u><br>A Major Test of Strength",
+            "types": [
+                "Hebra"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Joloo Nah Apparatus</u><br>'Test of Will'",
+            "types": [
+                "Wasteland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Tutsuwa Nima</u><br>A Major Test of Strength<br>'Spring of Power'",
+            "types": [
+                "Akkala"
+            ]
+        },
+        {
+            "name": "<u>Mozo Shenno</u><br>A Major Test of Strength",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Chaas Qeta</u><br>A Major Test of Strength",
+            "types": [
+                "Hateno"
+            ]
+        },
+        {
+            "name": "<u>Sho Dantu</u><br>Two Bombs",
+            "types": [
+                "Gerudo"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Mijah Rokee</u><br>'Under a Red Moon'",
+            "types": [
+                "Ridgeland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Shada Naw</u><br>Red Giveaway",
+            "types": [
+                "Hebra"
+            ]
+        },
+        {
+            "name": "<u>Kah Yahw</u><br>Quick Thinking<br>'A Fragmented Monument'",
+            "types": [
+                "Faron",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>To Quomo's Blessing</u><br>'Hebra Leviathan Bones'",
+            "types": [
+                "Hebra"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Dako Tah Shrine</u><br>Electric Path<br>'The Eye of the Sandstorm'",
+            "types": [
+                "Wasteland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Saas Ko'sah</u><br>A Major Test of Strength",
+            "types": [
+                "Central",
+                "Test"
+            ]
+        },
+        {
+            "name": "<u>Shae Katha</u><br>'The Serpent's Jaws'",
+            "types": [
+                "Lake"
+            ]
+        },
+        {
+            "name": "<u>Shoda Sah</u><br>Impeccable Timing",
+            "types": [
+                "Faron"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Korgu Chideh</u><br>'Stranded on Eventide'",
+            "types": [
+                "Faron",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Qukah Nata</u><br>'A Song of Storms'",
+            "types": [
+                "Faron",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Sasa Kai</u><br>A Modest Test of Strength<br>'Sign of the Shadow'",
+            "types": [
+                "Gerudo",
+                "Quest"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Shoqa Tatone</u><br>A Modest Test of Strength<br>'Guardian Slideshow'",
+            "types": [
+                "Lake",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Daag Chokah</u><br>'The Lost Pilgrimage'",
+            "types": [
+                "Woodland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Tho Kayu</u><br>'Fight with a Molduga'",
+            "types": [
+                "Wasteland"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Suma Sahma</u><br>'Secret of the Snowy Peaks'",
+            "types": [
+                "Wasteland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Misae Suma</u><br>'The Perfect Drink'",
+            "types": [
+                "Wasteland",
+                "Quest"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "<u>Korsh O'hu</u><br>'The Seven Heroines'",
+            "types": [
+                "Wasteland",
+                "Quest"
+            ]
+        },
+        {
+            "name": "<u>Kayra Mah</u><br>Greedy Hill<br>'A Brother's Roast'",
+            "types": [
+                "Eldin",
+                "Quest"
+            ]
+        }
+    ]
+]

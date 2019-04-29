@@ -37,3 +37,18 @@
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+#bingosync-goals {
+    max-width: calc(100% - 7px);
+    width: calc(100% - 7px);
+    height: 100px;
+}
+
+td.hidden {
+    color: rgba(0,0,0,0);
+}
+
+#bingoPage #bingo tr td.hidden:hover,#bingoPage #bingo tr td.hidden.hover {
+	background:#001a36;
+	color: rgba(0,0,0,0);
+}

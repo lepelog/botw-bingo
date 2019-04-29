@@ -1,0 +1,614 @@
+[
+    [
+        {
+            "name": "obtain 1 korok seed",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 1個"
+        },
+        {
+            "name": "Roasted Apple",
+            "types": [
+                "materials"
+            ],
+            "jp": "焼きリンゴ"
+        },
+        {
+            "name": "chop down a tree",
+            "types": [
+                "materials"
+            ],
+            "jp": "木を切り倒す"
+        },
+        {
+            "name": "any meal",
+            "types": [
+                "cooking"
+            ],
+            "jp": "料理を作る"
+        },
+        {
+            "name": "any elixir",
+            "types": [
+                "cooking"
+            ],
+            "jp": "薬を作る"
+        }
+    ],
+    [
+        {
+            "name": "Spicy Sautéed Peppers",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ピリ辛炒めポカポカ "
+        },
+        {
+            "name": "Simmered Fruit",
+            "types": [
+                "cooking"
+            ],
+            "jp": "煮込み果実"
+        },
+        {
+            "name": "Meat Skewer",
+            "types": [
+                "cooking"
+            ],
+            "jp": "串焼き肉"
+        },
+        {
+            "name": "Farmer's Pitchfork",
+            "types": [
+                "equipment"
+            ],
+            "jp": "畑のフォーク"
+        },
+        {
+            "name": "Energizing Mushroom Skewer",
+            "types": [
+                "cooking"
+            ],
+            "jp": "がんばり串焼きキノコ"
+        }
+    ],
+    [
+        {
+            "name": "Hasty Mushroom Skewer",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ゴーゴー串焼きキノコ"
+        },
+        {
+            "name": "obtain 2 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 2個"
+        },
+        {
+            "name": "Hylian Trousers",
+            "types": [
+                "materials"
+            ],
+            "jp": "ハイリアのズボン"
+        },
+        {
+            "name": "catch a beetle",
+            "types": [
+                "materials"
+            ],
+            "jp": "カブトムシを捕まえる"
+        },
+        {
+            "name": "Seared Steak",
+            "types": [
+                "camp"
+            ],
+            "jp": "焼きケモノ肉"
+        }
+    ],
+    [
+        {
+            "name": "Spicy Fruit and Mushroom mix",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ピリ辛果実のキノコあえ"
+        },
+        {
+            "name": "Fruit and Mushroom mix",
+            "types": [
+                "cooking"
+            ],
+            "jp": "果実のキノコあえ"
+        },
+        {
+            "name": "obtain 10 wood",
+            "types": [
+                "materials"
+            ],
+            "jp": "薪の束 10個"
+        },
+        {
+            "name": "Spicy Simmered Fruit",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ピリ辛煮込み果実"
+        },
+        {
+            "name": "Meat and Mushroom Skewer",
+            "types": [
+                "cooking"
+            ],
+            "jp": "串焼き肉キノコ添え"
+        },
+        {
+            "name": "open a Bokoblin camp chest",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を1個開く"
+        }
+    ],
+    [
+        {
+            "name": "5 Chuchu jelly",
+            "types": [
+                "materials"
+            ],
+            "jp": "チュチュゼリー 5個"
+        },
+        {
+            "name": "Courser Bee Honey",
+            "types": [
+                "materials"
+            ],
+            "jp": "ガンバリバチのハチミツ"
+        },
+        {
+            "name": "obtain 4 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 4個"
+        },
+        {
+            "name": "Fried Wild Greens",
+            "types": [
+                "cooking"
+            ],
+            "jp": "焼き山菜"
+        }
+    ],
+    [
+        {
+            "name": "Energizing Honey Candy",
+            "types": [
+                "cooking"
+            ],
+            "jp": "がんばりハチミツアメ"
+        },
+        {
+            "name": "Energizing Honeyed Apple",
+            "types": [
+                "cooking"
+            ],
+            "jp": "がんばりハチミツリンゴ"
+        },
+        {
+            "name": "kill a boar",
+            "types": [
+                "kill"
+            ],
+            "jp": "イノシシを狩る"
+        },
+        {
+            "name": "Soldier's Bow",
+            "types": [
+                "equipment"
+            ],
+            "jp": "兵士の弓"
+        },
+        {
+            "name": "open 2 Bokoblin camp chests",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を2個開く"
+        }
+    ],
+    [
+        {
+            "name": "5 Rushrooms",
+            "types": [
+                "materials"
+            ],
+            "jp": "ゴーゴーダケ 5個"
+        },
+        {
+            "name": "make a fire",
+            "types": [
+                "materials"
+            ],
+            "jp": "焚き火を作る"
+        },
+        {
+            "name": "5 ancient gears",
+            "types": [
+                "materials"
+            ],
+            "jp": "古代の歯車 5個"
+        },
+        {
+            "name": "obtain 5 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 5個"
+        }
+    ],
+    [
+        {
+            "name": "kill a bokoblin with an explosive barrel",
+            "types": [
+                "kill"
+            ],
+            "jp": "爆弾樽を使ってボコブリンを倒す"
+        },
+        {
+            "name": "Spiked Boko Shield",
+            "types": [
+                "kill",
+                "equipment"
+            ],
+            "jp": "トゲボコ盾"
+        },
+        {
+            "name": "Spiked Boko Club",
+            "types": [
+                "kill",
+                "equipment"
+            ],
+            "jp": "トゲボコこん棒"
+        }
+    ],
+    [
+        {
+            "name": "Throwing Spear",
+            "types": [
+                "equipment"
+            ],
+            "jp": "投てき槍"
+        },
+        {
+            "name": "5 ancient screws",
+            "types": [
+                "materials"
+            ],
+            "jp": "古代のネジ 5個"
+        },
+        {
+            "name": "obtain 6 Korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 6個"
+        }
+    ],
+    [
+        {
+            "name": "Summerwing Butterfly",
+            "types": [
+                "materials"
+            ],
+            "jp": "ポカポカアゲハ"
+        },
+        {
+            "name": "kill a Guardian Scout",
+            "types": [
+                "kill"
+            ],
+            "jp": "小型ガーディアンを倒す"
+        },
+        {
+            "name": "Bokoblin arm",
+            "types": [
+                "kill",
+                "equipment"
+            ],
+            "jp": "ボコブリンの骨"
+        },
+        {
+            "name": "open 3 Bokoblin camp chest",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を3個開く"
+        }
+    ],
+    [
+        {
+            "name": "explode a skull camp",
+            "types": [
+                "kill"
+            ],
+            "jp": "ドクロの拠点を爆発させる"
+        },
+        {
+            "name": "obtain 7 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 7個"
+        },
+        {
+            "name": "create a working catapult",
+            "types": [
+                "physics"
+            ],
+            "jp": "シーソーを作って跳ぶ"
+        }
+    ],
+    [
+        {
+            "name": "5 White Chuchu Jelly",
+            "types": [
+                "materials"
+            ],
+            "jp": "白チュチュゼリー 5個"
+        },
+        {
+            "name": "5 Keese Wings",
+            "types": [
+                "materials"
+            ],
+            "jp": "キースの羽 5個"
+        },
+        {
+            "name": "2 Keese Eyeballs",
+            "types": [
+                "materials"
+            ],
+            "jp": "キースの目玉 2個"
+        },
+        {
+            "name": "5 Seared Steak",
+            "types": [
+                "camp"
+            ],
+            "jp": "焼きケモノ肉 5個"
+        }
+    ],
+    [
+        {
+            "name": "complete the Magnesis Trial",
+            "types": [
+                "shrines",
+                "story"
+            ],
+            "jp": "マ・オーヌの祠攻略"
+        },
+        {
+            "name": "obtain 8 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 8個"
+        }
+    ],
+    [
+        {
+            "name": "complete the Bomb Trial",
+            "types": [
+                "shrines",
+                "story"
+            ],
+            "jp": "ジャ・バシフの祠攻略"
+        },
+        {
+            "name": "Soldier's Broadsword",
+            "types": [
+                "equipment"
+            ],
+            "jp": "兵士の剣"
+        },
+        {
+            "name": "Spiked Boko Bow",
+            "types": [
+                "equipment"
+            ],
+            "jp": "トゲボコ弓"
+        },
+        {
+            "name": "Spicy Elixir",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ピリ辛薬"
+        }
+    ],
+    [
+        {
+            "name": "complete the Cryonis Trial",
+            "types": [
+                "shrines",
+                "story"
+            ],
+            "jp": "トゥミ・ンケの祠攻略"
+        },
+        {
+            "name": "obtain 9 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 9個"
+        },
+        {
+            "name": "open 4 Bokoblin camp chests",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を4個開く"
+        }
+    ],
+    [
+        {
+            "name": "obtain the Warm Doublet",
+            "types": [
+                "equipment"
+            ],
+            "jp": "防寒着"
+        },
+        {
+            "name": "kill a rusty Guardian",
+            "types": [
+                "kill",
+                "guardian"
+            ],
+            "jp": "朽ちたガーディアン1体討伐"
+        }
+    ],
+    [
+        {
+            "name": "obtain 10 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 10個"
+        },
+        {
+            "name": "find 5 amber",
+            "types": [
+                "materials"
+            ],
+            "jp": "コハク 5個"
+        }
+    ],
+    [
+        {
+            "name": "complete the Stasis Trial",
+            "types": [
+                "shrines",
+                "story"
+            ],
+            "jp": "ワ・モダイの祠攻略"
+        },
+        {
+            "name": "open 5 Bokoblin camp chest",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を5個開く"
+        }
+    ],
+    [
+        {
+            "name": "find 5 opal",
+            "types": [
+                "materials"
+            ],
+            "jp": "オパール 5個"
+        },
+        {
+            "name": "obtain 11 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 11個"
+        }
+    ],
+    [
+        {
+            "name": "kill a Stone Talus",
+            "types": [
+                "kill"
+            ],
+            "jp": "イワロック討伐"
+        }
+    ],
+    [
+        {
+            "name": "obtain 12 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 12個"
+        }
+    ],
+    [
+        {
+            "name": "kill 3 rusty Guardians",
+            "types": [
+                "kill",
+                "guardian"
+            ],
+            "jp": "朽ちたガーディアン 3体討伐"
+        },
+        {
+            "name": "activate every shrine",
+            "types": [
+                "shrine"
+            ],
+            "jp": "全ての祠にワープ地点登録"
+        }
+    ],
+    [
+        {
+            "name": "obtain 15 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 15個"
+        }
+    ],
+    [
+        {
+            "name": "complete 4 shrines",
+            "types": [
+                "shrines"
+            ],
+            "jp": "全ての祠を攻略"
+        },
+        {
+            "name": "upgrade hearts",
+            "types": [
+                "upgrade"
+            ],
+            "jp": "ハートの器を増やす"
+        },
+        {
+            "name": "upgrade stamina",
+            "types": [
+                "upgrade"
+            ],
+            "jp": "がんばりの器を増やす"
+        }
+    ],
+    [
+        {
+            "name": "obtain paraglider",
+            "types": [
+                "glider",
+                "story"
+            ],
+            "jp": "パラセール入手"
+        },
+        {
+            "name": "read The Old Man's Diary",
+            "types": [
+                "glider",
+                "story"
+            ],
+            "jp": "老人の日記を読む"
+        }
+    ]
+]
