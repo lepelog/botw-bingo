@@ -174,19 +174,19 @@ function gup( name ) {
 
 var bingo = function() {
 	var size = 5;
-	var board = gup('board') || "normal";
+	var board = gup('board') || "normal_v1";
 	var LANG = gup('lang') || 'name';
 	var SEED = gup("seed");
 	var MODE = gup("mode");
 	var EXPLORATION = gup("exploration");
+
+	if(SEED == "") return reseedPage(MODE, board, LANG);
 
 	$.getJSON("tables/"+board+".json", bingoList => {
 
 	if (EXPLORATION) {
 		$('#exploration-check').prop('checked',true);
 	}
-
-	if(SEED == "") return reseedPage(MODE, board, LANG);
 
 	var cardtype = "string";
 
@@ -295,7 +295,7 @@ function reseedPage(mode) {
 	var qSeed = "?seed=" + Math.ceil(999999 * Math.random());
 	var qMode = (mode == "short" || mode == "long") ? "&mode=" + mode : "";
 	var qEx = $('#exploration-check').is(':checked') ? '&exploration=1':'';
-	var board = gup('board') || "normal";
+	var board = gup('board') || "normal_v1";
 	var LANG = gup('lang') || 'name';
 	var qBoard = board ? "&board=" + board:"";
 	var qLang = LANG ? "&lang=" + LANG:"";
