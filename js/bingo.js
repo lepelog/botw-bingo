@@ -146,13 +146,15 @@ function getBingoBoard(bingoList, size, options = {seed:"", mode:"normal", lang:
 		do {
 			currentObj = bingoList[getDifficulty][(j+RNG)%bingoList[getDifficulty].length];
 			synergy = checkLine(i, currentObj.types);
-			if ((minSynObj == null || synergy < minSynObj.synergy)
-				// check for duplicate
-					&& (prevIndex<1 || bingoBoard[prevIndex].name != (currentObj[LANG] || currentObj.name))) {
+			// give duplicate a really bad synergy
+			if (!(prevIndex<1 || bingoBoard[prevIndex].name != (currentObj[LANG] || currentObj.name))) {
+				synergy += 10;
+			}
+			if ((minSynObj == null || synergy < minSynObj.synergy)) {
 			  minSynObj = { synergy: synergy, value: currentObj };
 			}
 			j++;
-		} while (minSynObj == null || (synergy != 0) && (j<bingoList[getDifficulty].length));
+		} while ((synergy != 0) && (j<bingoList[getDifficulty].length));
 
 		bingoBoard[i].types = minSynObj.value.types;
 		bingoBoard[i].name = minSynObj.value[LANG] || minSynObj.value.name;
