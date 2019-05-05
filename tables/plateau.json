@@ -38,11 +38,11 @@
     ],
     [
         {
-            "name": "Spicy Sautéed Peppers",
+            "name": "Spicy Sauteed Peppers",
             "types": [
                 "cooking"
             ],
-            "jp": "ピリ辛炒めポカポカ "
+            "jp": "ピリ辛炒めポカポカ "
         },
         {
             "name": "Simmered Fruit",
@@ -107,7 +107,7 @@
             "types": [
                 "camp"
             ],
-            "jp": "焼きケモノ肉"
+            "jp": "焼きケモノ肉 "
         }
     ],
     [
@@ -145,7 +145,9 @@
                 "cooking"
             ],
             "jp": "串焼き肉キノコ添え"
-        },
+        }
+    ],
+    [
         {
             "name": "open a Bokoblin camp chest",
             "types": [
@@ -153,15 +155,6 @@
                 "camp"
             ],
             "jp": "ボコ拠点の宝箱を1個開く"
-        }
-    ],
-    [
-        {
-            "name": "5 Chuchu jelly",
-            "types": [
-                "materials"
-            ],
-            "jp": "チュチュゼリー 5個"
         },
         {
             "name": "Courser Bee Honey",
@@ -183,6 +176,20 @@
                 "cooking"
             ],
             "jp": "焼き山菜"
+        },
+        {
+            "name": "5 Restless Cricket",
+            "types": [
+                "materials"
+            ],
+            "jp": "ガンバリバッタ 5匹"
+        },
+        {
+            "name": "Sautéed Nuts",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ナッツ炒め"
         }
     ],
     [
@@ -201,13 +208,6 @@
             "jp": "がんばりハチミツリンゴ"
         },
         {
-            "name": "kill a boar",
-            "types": [
-                "kill"
-            ],
-            "jp": "イノシシを狩る"
-        },
-        {
             "name": "Soldier's Bow",
             "types": [
                 "equipment"
@@ -215,15 +215,28 @@
             "jp": "兵士の弓"
         },
         {
-            "name": "open 2 Bokoblin camp chests",
+            "name": "kill a bokoblin with an explosive barrel",
             "types": [
-                "kill",
-                "camp"
+                "kill"
             ],
-            "jp": "ボコ拠点の宝箱を2個開く"
+            "jp": "爆弾樽を使ってボコブリンを倒す"
+        },
+        {
+            "name": "kill a pigeon",
+            "types": [
+                "kill"
+            ],
+            "jp": "鳩を狩る"
         }
     ],
     [
+        {
+            "name": "kill a boar",
+            "types": [
+                "kill"
+            ],
+            "jp": "イノシシを狩る"
+        },
         {
             "name": "5 Rushrooms",
             "types": [
@@ -239,27 +252,28 @@
             "jp": "焚き火を作る"
         },
         {
-            "name": "5 ancient gears",
-            "types": [
-                "materials"
-            ],
-            "jp": "古代の歯車 5個"
-        },
-        {
             "name": "obtain 5 korok seeds",
             "types": [
                 "korok"
             ],
             "jp": "コログのミ 5個"
+        },
+        {
+            "name": "5 ancient screws",
+            "types": [
+                "materials"
+            ],
+            "jp": "古代のネジ 5個"
         }
     ],
     [
         {
-            "name": "kill a bokoblin with an explosive barrel",
+            "name": "open 2 Bokoblin camp chests",
             "types": [
-                "kill"
+                "kill",
+                "camp"
             ],
-            "jp": "爆弾樽を使ってボコブリンを倒す"
+            "jp": "ボコ拠点の宝箱を2個開く"
         },
         {
             "name": "Spiked Boko Shield",
@@ -276,9 +290,30 @@
                 "equipment"
             ],
             "jp": "トゲボコこん棒"
+        },
+        {
+            "name": "explode a skull camp",
+            "types": [
+                "kill"
+            ],
+            "jp": "ドクロの拠点を爆発させる"
+        },
+        {
+            "name": "Build a log bridge",
+            "types": [
+                "physics"
+            ],
+            "jp": "丸太の橋を架ける"
         }
     ],
     [
+        {
+            "name": "5 Chuchu jelly",
+            "types": [
+                "materials"
+            ],
+            "jp": "チュチュゼリー 5個"
+        },
         {
             "name": "Throwing Spear",
             "types": [
@@ -287,18 +322,25 @@
             "jp": "投てき槍"
         },
         {
-            "name": "5 ancient screws",
-            "types": [
-                "materials"
-            ],
-            "jp": "古代のネジ 5個"
-        },
-        {
             "name": "obtain 6 Korok seeds",
             "types": [
                 "korok"
             ],
             "jp": "コログのミ 6個"
+        },
+        {
+            "name": "5 ancient springs",
+            "types": [
+                "materials"
+            ],
+            "jp": "古代のバネ 5個"
+        },
+        {
+            "name": "kill a bokoblin with an Sneakstrike",
+            "types": [
+                "kill"
+            ],
+            "jp": "ふいうちを使ってボコブリンを倒す"
         }
     ],
     [
@@ -325,21 +367,20 @@
             "jp": "ボコブリンの骨"
         },
         {
-            "name": "open 3 Bokoblin camp chest",
+            "name": "kill a bokoblin with an Bee",
             "types": [
-                "kill",
-                "camp"
+                "kill"
             ],
-            "jp": "ボコ拠点の宝箱を3個開く"
+            "jp": "蜂を使ってボコブリンを倒す"
         }
     ],
     [
         {
-            "name": "explode a skull camp",
+            "name": "5 ancient gears",
             "types": [
-                "kill"
+                "materials"
             ],
-            "jp": "ドクロの拠点を爆発させる"
+            "jp": "古代の歯車 5個"
         },
         {
             "name": "obtain 7 korok seeds",
@@ -354,9 +395,7 @@
                 "physics"
             ],
             "jp": "シーソーを作って跳ぶ"
-        }
-    ],
-    [
+        },
         {
             "name": "5 White Chuchu Jelly",
             "types": [
@@ -365,28 +404,21 @@
             "jp": "白チュチュゼリー 5個"
         },
         {
-            "name": "5 Keese Wings",
+            "name": "3 Sunset Firefly",
             "types": [
                 "materials"
             ],
-            "jp": "キースの羽 5個"
-        },
-        {
-            "name": "2 Keese Eyeballs",
-            "types": [
-                "materials"
-            ],
-            "jp": "キースの目玉 2個"
-        },
+            "jp": "シズカホタル 3匹"
+        }
+    ],
+    [
         {
             "name": "5 Seared Steak",
             "types": [
                 "camp"
             ],
             "jp": "焼きケモノ肉 5個"
-        }
-    ],
-    [
+        },
         {
             "name": "complete the Magnesis Trial",
             "types": [
@@ -396,11 +428,18 @@
             "jp": "マ・オーヌの祠攻略"
         },
         {
-            "name": "obtain 8 korok seeds",
+            "name": "5 Red Chuchu Jelly",
             "types": [
-                "korok"
+                "materials"
             ],
-            "jp": "コログのミ 8個"
+            "jp": "赤チュチュゼリー 5個"
+        },
+        {
+            "name": "kill a bokoblin with an Korok bomb",
+            "types": [
+                "kill"
+            ],
+            "jp": "迫撃砲を使ってボコブリンを倒す"
         }
     ],
     [
@@ -417,7 +456,45 @@
             "types": [
                 "equipment"
             ],
-            "jp": "兵士の剣"
+            "jp": "兵士の剣 "
+        },
+        {
+            "name": "Spicy Elixir",
+            "types": [
+                "cooking"
+            ],
+            "jp": "ピリ辛薬"
+        },
+        {
+            "name": "Sneaky Elixir",
+            "types": [
+                "cooking"
+            ],
+            "jp": "しのび薬"
+        },
+        {
+            "name": "3 Type's Chuchu Jelly",
+            "types": [
+                "materials"
+            ],
+            "jp": "チュチュゼリー 3種類"
+        }
+    ],
+    [
+        {
+            "name": "open 3 Bokoblin camp chest",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を3個開く"
+        },
+        {
+            "name": "obtain 8 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 8個"
         },
         {
             "name": "Spiked Boko Bow",
@@ -427,36 +504,12 @@
             "jp": "トゲボコ弓"
         },
         {
-            "name": "Spicy Elixir",
-            "types": [
-                "cooking"
-            ],
-            "jp": "ピリ辛薬"
-        }
-    ],
-    [
-        {
-            "name": "complete the Cryonis Trial",
+            "name": "complete the Stasis Trial",
             "types": [
                 "shrines",
                 "story"
             ],
-            "jp": "トゥミ・ンケの祠攻略"
-        },
-        {
-            "name": "obtain 9 korok seeds",
-            "types": [
-                "korok"
-            ],
-            "jp": "コログのミ 9個"
-        },
-        {
-            "name": "open 4 Bokoblin camp chests",
-            "types": [
-                "kill",
-                "camp"
-            ],
-            "jp": "ボコ拠点の宝箱を4個開く"
+            "jp": "ワ・モダイの祠攻略"
         }
     ],
     [
@@ -474,15 +527,60 @@
                 "guardian"
             ],
             "jp": "朽ちたガーディアン1体討伐"
+        },
+        {
+            "name": "Down the Bokoblin camp slope",
+            "types": [
+                "physics"
+            ],
+            "jp": "拠点のスロープを降ろす"
         }
     ],
     [
         {
-            "name": "obtain 10 korok seeds",
+            "name": "5 Keese Wings",
+            "types": [
+                "materials"
+            ],
+            "jp": "キースの羽 5個"
+        },
+        {
+            "name": "obtain 9 korok seeds",
             "types": [
                 "korok"
             ],
-            "jp": "コログのミ 10個"
+            "jp": "コログのミ 9個"
+        },
+        {
+            "name": "Talk to mountaintop Old Man",
+            "types": [
+                "oldman"
+            ],
+            "jp": "ハイリア山頂で老人と話す"
+        },
+        {
+            "name": "Go down the river with a motor boat",
+            "types": [
+                "physics"
+            ],
+            "jp": "モーターボートで川下り"
+        }
+    ],
+    [
+        {
+            "name": "2 Keese Eyeballs",
+            "types": [
+                "materials"
+            ],
+            "jp": "キースの目玉 2個"
+        },
+        {
+            "name": "complete the Cryonis Trial",
+            "types": [
+                "shrines",
+                "story"
+            ],
+            "jp": "トゥミ・ンケの祠攻略"
         },
         {
             "name": "find 5 amber",
@@ -490,40 +588,13 @@
                 "materials"
             ],
             "jp": "コハク 5個"
-        }
-    ],
-    [
-        {
-            "name": "complete the Stasis Trial",
-            "types": [
-                "shrines",
-                "story"
-            ],
-            "jp": "ワ・モダイの祠攻略"
         },
         {
-            "name": "open 5 Bokoblin camp chest",
+            "name": "Three different Any Glazed meal ",
             "types": [
-                "kill",
-                "camp"
+                "cooking"
             ],
-            "jp": "ボコ拠点の宝箱を5個開く"
-        }
-    ],
-    [
-        {
-            "name": "find 5 opal",
-            "types": [
-                "materials"
-            ],
-            "jp": "オパール 5個"
-        },
-        {
-            "name": "obtain 11 korok seeds",
-            "types": [
-                "korok"
-            ],
-            "jp": "コログのミ 11個"
+            "jp": "甘露煮 3種類"
         }
     ],
     [
@@ -533,15 +604,31 @@
                 "kill"
             ],
             "jp": "イワロック討伐"
+        },
+        {
+            "name": "Chickaloo Tree Nut",
+            "types": [
+                "kill",
+                "materials"
+            ],
+            "jp": "小鳥の木の実"
         }
     ],
     [
         {
-            "name": "obtain 12 korok seeds",
+            "name": "open 3 Bokoblin camp chests",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を4個開く"
+        },
+        {
+            "name": "obtain 10 korok seeds",
             "types": [
                 "korok"
             ],
-            "jp": "コログのミ 12個"
+            "jp": "コログのミ 10個"
         }
     ],
     [
@@ -563,14 +650,29 @@
     ],
     [
         {
-            "name": "obtain 15 korok seeds",
+            "name": "open 5 Bokoblin camp chest",
+            "types": [
+                "kill",
+                "camp"
+            ],
+            "jp": "ボコ拠点の宝箱を5個開く"
+        },
+        {
+            "name": "obtain 11 korok seeds",
             "types": [
                 "korok"
             ],
-            "jp": "コログのミ 15個"
+            "jp": "コログのミ 11個"
         }
     ],
     [
+        {
+            "name": "find 5 opal",
+            "types": [
+                "materials"
+            ],
+            "jp": "オパール 5個"
+        },
         {
             "name": "complete 4 shrines",
             "types": [
@@ -578,6 +680,15 @@
             ],
             "jp": "全ての祠を攻略"
         },
+        {
+            "name": "All 'Traveler's' Equipment item",
+            "types": [
+                "equipment"
+            ],
+            "jp": "旅人シリーズ一式"
+        }
+    ],
+    [
         {
             "name": "upgrade hearts",
             "types": [
@@ -595,12 +706,28 @@
     ],
     [
         {
+            "name": "obtain 12 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 12個"
+        },
+        {
             "name": "obtain paraglider",
             "types": [
                 "glider",
                 "story"
             ],
             "jp": "パラセール入手"
+        }
+    ],
+    [
+        {
+            "name": "obtain 15 korok seeds",
+            "types": [
+                "korok"
+            ],
+            "jp": "コログのミ 15個"
         },
         {
             "name": "read The Old Man's Diary",
@@ -609,6 +736,13 @@
                 "story"
             ],
             "jp": "老人の日記を読む"
+        },
+        {
+            "name": "All 'Boko' Equipment item",
+            "types": [
+                "equipment"
+            ],
+            "jp": "ボコシリーズ一式"
         }
     ]
 ]
