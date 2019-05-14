@@ -207,20 +207,19 @@ var bingo = function() {
 	results.append ('<a href="'+qSeed+qMode+qEx+qBoard+'"><img src="img/en.png" alt="English"></a><a href="'+qSeed+qMode+qEx+qBoard+'&lang=jp"><img src="img/jp.png" alt="Japanese"></a><p>BotW Bingo <strong>v1</strong>&emsp;Seed: <strong>' +
 		SEED + "</strong>&emsp;Card type: <strong>" + cardtype + "</strong>&emsp;Goal list: <strong>" + board + "</strong></p>")
 
-	$('.popout').click(function() {
-		var mode = null;
-		var line = $(this).attr('id');
-		var name = $(this).html();
-		var items = [];
-		var cells = $('#bingo .'+ line);
-		for (var i = 0; i < 5; i++) {
-		  items.push( encodeURIComponent($(cells[i]).html()) );
-		}
-		if (mode == 'simple-stream') {
-		  window.open('bingo-popout-basic.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
-		else {
-		  window.open('bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
-	});
+	if (!EXPLORATION) {
+		$('.popout').click(function() {
+			var mode = null;
+			var line = $(this).attr('id');
+			var name = $(this).html();
+			var items = [];
+			var cells = $('#bingo .'+ line);
+			for (var i = 0; i < 5; i++) {
+				items.push( encodeURIComponent($(cells[i]).html()) );
+			}
+			window.open('bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
+		);
+	}
 
 	$("#selected td").toggle(
 		function () { $(this).addClass("greensquare"); },
